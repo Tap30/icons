@@ -1,11 +1,12 @@
-import { customElement } from 'lit/decorators.js';
-import { PinWaveFillIcon } from './pin-wave-fill';
+import {customElement} from "lit/decorators.js";
+import { PinWaveFillIcon } from "./pin-wave-fill";
 
-@customElement('tap-icon-pin-wave-fill')
-export class TapIconPinWaveFill extends PinWaveFillIcon {}
+@customElement("tap-icon-pin-wave-fill")
+export class TapIconPinWaveFill extends PinWaveFillIcon {
+}
 
 declare global {
   interface HTMLElementTagNameMap {
-    'tap-icon-pin-wave-fill': TapIconPinWaveFill;
+    "tap-icon-pin-wave-fill": TapIconPinWaveFill;
   }
 }
