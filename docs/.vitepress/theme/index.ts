@@ -1,6 +1,5 @@
-import type { Theme } from 'vitepress'
+// .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
+import './custom.css'
 
-export default {
-  extends: DefaultTheme,
-} satisfies Theme
+export default DefaultTheme

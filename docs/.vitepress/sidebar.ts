@@ -1,26 +1,31 @@
 import fs from 'fs';
-import { Sidebar, SidebarItem } from './types';
+import { DefaultTheme } from "vitepress";
 
 type Content = { name: string; title: string }
 
-const getCategories = (): SidebarItem[] => {
+const getCategories = (): DefaultTheme.SidebarItem[] => {
   const categories = JSON.parse(fs.readFileSync('docs/.vitepress/data/categories.json').toString()) as Content[];
   return categories.map((category) => ({ link: `/category/${category.name}`, text: category.title }))
 }
 
-const getPackages = (): SidebarItem[] => {
+const getPackages = (): DefaultTheme.SidebarItem[] => {
+  const packages = JSON.parse(fs.readFileSync('docs/.vitepress/data/packages.json').toString()) as Content[];
+  return packages.map((pck) => ({ link: `/package/${pck.name}`, text: pck.title }))
+}
+
+const getPackages = (): DefaultTheme.SidebarItem[] => {
   const packages = JSON.parse(fs.readFileSync('docs/.vitepress/data/packages.json').toString()) as Content[];
   return packages.map((pck) => ({ link: `/package/${pck.name}`, text: pck.title }))
 }
 
 export default [
-  { text: 'Getting Started', link: '/getting-started' },
+  // { text: 'Getting Started', link: '/getting-started' },
   {
-    text: 'All Icons',
+    text: 'Icon Set',
     link: '/',
   },
   {
-    text: 'Categories',
+    text: 'Icon Categories',
     collapsed: true,
     items: getCategories(),
   },
@@ -29,4 +34,4 @@ export default [
     collapsed: true,
     items: getPackages(),
   },
-] as Sidebar[]
+] as DefaultTheme.SidebarItem[]

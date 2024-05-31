@@ -60,7 +60,7 @@ import Map from '@tapsi-oss/icons/react';
 \`\`\`
 `
 
-  if (name === 'web-components')
+  if (name === 'lit')
     return `
 
 ### Import
@@ -88,14 +88,14 @@ Now You can use components in your code:
 \`\`\`
 `
 
-  if (name === 'web-components')
+  if (name === 'lit')
     return `
 ### Usage
 
 Now You can use components in your code:
 
 \`\`\`js
-<tap-map></tap-map>
+<tap-icon-map></tap-icon-map>
 \`\`\`
 `
 

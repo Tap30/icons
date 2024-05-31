@@ -1,9 +1,5 @@
-# My Page
+<script setup>
+import Icons from './components/Icons.vue';
+</script>
 
-// Search Input Here
-
-// A Grid
-
-<div v-for="i in 3">
-{{ i }}
-</div>
+<Icons />

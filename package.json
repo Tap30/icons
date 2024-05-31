@@ -11,7 +11,9 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "analyze": "cem analyze  --litelement --outdir dist --globs \"src/**/index.ts\""
+    "analyze": "cem analyze  --litelement --outdir dist --globs \"src/**/index.ts\"",
+    "svg2lit": "node scripts/svg2lit.js",
+    "svg2react": "node scripts/svg2react.js"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.10.2",
@@ -50,6 +52,8 @@
     "@vueuse/components": "^10.7.2",
     "@vueuse/core": "^10.7.2",
     "custom-elements-manifest": "^2.1.0",
-    "lit": "^3.1.2"
+    "lit": "^3.1.2",
+    "primevue": "^3.52.0",
+    "vue": "^3.4.27"
   }
 }
