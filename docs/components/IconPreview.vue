@@ -13,6 +13,7 @@ defineProps({
   title: String,
   selectIcon: String,
 })
+
 </script>
 
 <style scoped>

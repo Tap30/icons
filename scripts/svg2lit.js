@@ -3,6 +3,7 @@ import path from "path";
 
 const inputDir = "icons";
 const outputDir = "src/lit/icons";
+const distDir = "dist";
 const iconGridDocsDir = "docs/components";
 
 const config = {}
@@ -95,7 +96,7 @@ ${indentedSvgContent}\`);
     `<tap-icon-${baseName} color=\${color} width=\${width} height=\${height}></tap-icon-${baseName}>`
   );
   iconGridDocsTemplate.push(
-    `<IconPreview title="${baseName}"><tap-icon-${baseName}></tap-icon-${baseName}></IconPreview>`
+    `<IconPreview :select-icon=selectIcon title="${baseName}"><tap-icon-${baseName}></tap-icon-${baseName}></IconPreview>`
   )
 }
 
@@ -121,11 +122,19 @@ fs.readdir(inputDir, (err, files) => {
     } else if (file.endsWith(".json")) {
       const jsonContent = JSON.parse(fs.readFileSync(path.join(inputDir, file), "utf8").replaceAll('\n', ''));
       if (jsonContent.categories?.length > 0) {
-        config[id] = {...config[id], categories: jsonContent.categories.reduce((a, b) => [...a, ...(categoriesContent[b] || [])], [])}
+        config[id] = {
+          ...config[id],
+          categories: jsonContent.categories.reduce((a, b) => [...a, ...(categoriesContent[b] || [])], [])
+        }
       }
     }
   });
-console.log('🐕 sag config', config); // TODO: REMOVE ME ⚠️
+
+
+  fs.writeFileSync(
+    "dist/config.json",
+    JSON.stringify(config, null, 2)
+  );
 
   // After all files have been processed:
   rootIndexContent.sort();
@@ -212,6 +221,9 @@ IconSet.args = { height: 24, width: 24, color: 'black' };
 <script setup>
 import '../../${outputDir}';
 import IconPreview from './IconPreview.vue';
+defineProps({
+  selectIcon: String,
+})
 </script>
 
 <style scoped>

@@ -1,350 +1,350 @@
 <template>
   <div class="icon-grid">
-		<IconPreview title="alarm-clock"><tap-icon-alarm-clock></tap-icon-alarm-clock></IconPreview>
-		<IconPreview title="alarm-clock-fill"><tap-icon-alarm-clock-fill></tap-icon-alarm-clock-fill></IconPreview>
-		<IconPreview title="arrow-top-right"><tap-icon-arrow-top-right></tap-icon-arrow-top-right></IconPreview>
-		<IconPreview title="arrow-top-right-fill"><tap-icon-arrow-top-right-fill></tap-icon-arrow-top-right-fill></IconPreview>
-		<IconPreview title="arrow-top-right-question"><tap-icon-arrow-top-right-question></tap-icon-arrow-top-right-question></IconPreview>
-		<IconPreview title="arrow-top-right-question-fill"><tap-icon-arrow-top-right-question-fill></tap-icon-arrow-top-right-question-fill></IconPreview>
-		<IconPreview title="banknote"><tap-icon-banknote></tap-icon-banknote></IconPreview>
-		<IconPreview title="banknote-fill"><tap-icon-banknote-fill></tap-icon-banknote-fill></IconPreview>
-		<IconPreview title="banknote-two"><tap-icon-banknote-two></tap-icon-banknote-two></IconPreview>
-		<IconPreview title="banknote-two-fill"><tap-icon-banknote-two-fill></tap-icon-banknote-two-fill></IconPreview>
-		<IconPreview title="bell"><tap-icon-bell></tap-icon-bell></IconPreview>
-		<IconPreview title="bell-dot-fill"><tap-icon-bell-dot-fill></tap-icon-bell-dot-fill></IconPreview>
-		<IconPreview title="bell-fill"><tap-icon-bell-fill></tap-icon-bell-fill></IconPreview>
-		<IconPreview title="bookmark"><tap-icon-bookmark></tap-icon-bookmark></IconPreview>
-		<IconPreview title="bookmark-fill"><tap-icon-bookmark-fill></tap-icon-bookmark-fill></IconPreview>
-		<IconPreview title="box"><tap-icon-box></tap-icon-box></IconPreview>
-		<IconPreview title="box-check"><tap-icon-box-check></tap-icon-box-check></IconPreview>
-		<IconPreview title="box-fill"><tap-icon-box-fill></tap-icon-box-fill></IconPreview>
-		<IconPreview title="briefcase"><tap-icon-briefcase></tap-icon-briefcase></IconPreview>
-		<IconPreview title="briefcase-fill"><tap-icon-briefcase-fill></tap-icon-briefcase-fill></IconPreview>
-		<IconPreview title="building"><tap-icon-building></tap-icon-building></IconPreview>
-		<IconPreview title="building-fill"><tap-icon-building-fill></tap-icon-building-fill></IconPreview>
-		<IconPreview title="calendar"><tap-icon-calendar></tap-icon-calendar></IconPreview>
-		<IconPreview title="calendar-fill"><tap-icon-calendar-fill></tap-icon-calendar-fill></IconPreview>
-		<IconPreview title="call-dialog-box"><tap-icon-call-dialog-box></tap-icon-call-dialog-box></IconPreview>
-		<IconPreview title="call-left"><tap-icon-call-left></tap-icon-call-left></IconPreview>
-		<IconPreview title="call-left-slash"><tap-icon-call-left-slash></tap-icon-call-left-slash></IconPreview>
-		<IconPreview title="call-righ"><tap-icon-call-righ></tap-icon-call-righ></IconPreview>
-		<IconPreview title="call-right-slash"><tap-icon-call-right-slash></tap-icon-call-right-slash></IconPreview>
-		<IconPreview title="camera"><tap-icon-camera></tap-icon-camera></IconPreview>
-		<IconPreview title="camera-fill"><tap-icon-camera-fill></tap-icon-camera-fill></IconPreview>
-		<IconPreview title="camera-plus"><tap-icon-camera-plus></tap-icon-camera-plus></IconPreview>
-		<IconPreview title="car"><tap-icon-car></tap-icon-car></IconPreview>
-		<IconPreview title="car-clock"><tap-icon-car-clock></tap-icon-car-clock></IconPreview>
-		<IconPreview title="car-clock-fill"><tap-icon-car-clock-fill></tap-icon-car-clock-fill></IconPreview>
-		<IconPreview title="car-fill"><tap-icon-car-fill></tap-icon-car-fill></IconPreview>
-		<IconPreview title="car-slash"><tap-icon-car-slash></tap-icon-car-slash></IconPreview>
-		<IconPreview title="car-slash-fill"><tap-icon-car-slash-fill></tap-icon-car-slash-fill></IconPreview>
-		<IconPreview title="car-spark"><tap-icon-car-spark></tap-icon-car-spark></IconPreview>
-		<IconPreview title="card"><tap-icon-card></tap-icon-card></IconPreview>
-		<IconPreview title="card-fill"><tap-icon-card-fill></tap-icon-card-fill></IconPreview>
-		<IconPreview title="card-left-arrow"><tap-icon-card-left-arrow></tap-icon-card-left-arrow></IconPreview>
-		<IconPreview title="card-left-arrow-fill"><tap-icon-card-left-arrow-fill></tap-icon-card-left-arrow-fill></IconPreview>
-		<IconPreview title="card-plus"><tap-icon-card-plus></tap-icon-card-plus></IconPreview>
-		<IconPreview title="card-plus-fill"><tap-icon-card-plus-fill></tap-icon-card-plus-fill></IconPreview>
-		<IconPreview title="card-right-arrow"><tap-icon-card-right-arrow></tap-icon-card-right-arrow></IconPreview>
-		<IconPreview title="card-right-arrow-fill"><tap-icon-card-right-arrow-fill></tap-icon-card-right-arrow-fill></IconPreview>
-		<IconPreview title="card-spark"><tap-icon-card-spark></tap-icon-card-spark></IconPreview>
-		<IconPreview title="card-spark-fill"><tap-icon-card-spark-fill></tap-icon-card-spark-fill></IconPreview>
-		<IconPreview title="card-time"><tap-icon-card-time></tap-icon-card-time></IconPreview>
-		<IconPreview title="card-time-fill"><tap-icon-card-time-fill></tap-icon-card-time-fill></IconPreview>
-		<IconPreview title="check"><tap-icon-check></tap-icon-check></IconPreview>
-		<IconPreview title="check-fill"><tap-icon-check-fill></tap-icon-check-fill></IconPreview>
-		<IconPreview title="circle-check"><tap-icon-circle-check></tap-icon-circle-check></IconPreview>
-		<IconPreview title="circle-check-fill"><tap-icon-circle-check-fill></tap-icon-circle-check-fill></IconPreview>
-		<IconPreview title="circle-check-small"><tap-icon-circle-check-small></tap-icon-circle-check-small></IconPreview>
-		<IconPreview title="circle-check-small-fill"><tap-icon-circle-check-small-fill></tap-icon-circle-check-small-fill></IconPreview>
-		<IconPreview title="circle-cross"><tap-icon-circle-cross></tap-icon-circle-cross></IconPreview>
-		<IconPreview title="circle-cross-fill"><tap-icon-circle-cross-fill></tap-icon-circle-cross-fill></IconPreview>
-		<IconPreview title="circle-exclamation"><tap-icon-circle-exclamation></tap-icon-circle-exclamation></IconPreview>
-		<IconPreview title="circle-exclamation-fill"><tap-icon-circle-exclamation-fill></tap-icon-circle-exclamation-fill></IconPreview>
-		<IconPreview title="circle-fill-1"><tap-icon-circle-fill-1></tap-icon-circle-fill-1></IconPreview>
-		<IconPreview title="circle-fill-2"><tap-icon-circle-fill-2></tap-icon-circle-fill-2></IconPreview>
-		<IconPreview title="circle-fill-3"><tap-icon-circle-fill-3></tap-icon-circle-fill-3></IconPreview>
-		<IconPreview title="circle-fill-4"><tap-icon-circle-fill-4></tap-icon-circle-fill-4></IconPreview>
-		<IconPreview title="circle-fill-5"><tap-icon-circle-fill-5></tap-icon-circle-fill-5></IconPreview>
-		<IconPreview title="circle-fill-6"><tap-icon-circle-fill-6></tap-icon-circle-fill-6></IconPreview>
-		<IconPreview title="circle-fill-7"><tap-icon-circle-fill-7></tap-icon-circle-fill-7></IconPreview>
-		<IconPreview title="circle-fill-8"><tap-icon-circle-fill-8></tap-icon-circle-fill-8></IconPreview>
-		<IconPreview title="circle-fill-9"><tap-icon-circle-fill-9></tap-icon-circle-fill-9></IconPreview>
-		<IconPreview title="circle-information"><tap-icon-circle-information></tap-icon-circle-information></IconPreview>
-		<IconPreview title="circle-information-fill"><tap-icon-circle-information-fill></tap-icon-circle-information-fill></IconPreview>
-		<IconPreview title="circle-minus"><tap-icon-circle-minus></tap-icon-circle-minus></IconPreview>
-		<IconPreview title="circle-minus-fill"><tap-icon-circle-minus-fill></tap-icon-circle-minus-fill></IconPreview>
-		<IconPreview title="circle-more-fill"><tap-icon-circle-more-fill></tap-icon-circle-more-fill></IconPreview>
-		<IconPreview title="circle-outline-1"><tap-icon-circle-outline-1></tap-icon-circle-outline-1></IconPreview>
-		<IconPreview title="circle-outline-2"><tap-icon-circle-outline-2></tap-icon-circle-outline-2></IconPreview>
-		<IconPreview title="circle-outline-3"><tap-icon-circle-outline-3></tap-icon-circle-outline-3></IconPreview>
-		<IconPreview title="circle-outline-4"><tap-icon-circle-outline-4></tap-icon-circle-outline-4></IconPreview>
-		<IconPreview title="circle-outline-5"><tap-icon-circle-outline-5></tap-icon-circle-outline-5></IconPreview>
-		<IconPreview title="circle-outline-6"><tap-icon-circle-outline-6></tap-icon-circle-outline-6></IconPreview>
-		<IconPreview title="circle-outline-7"><tap-icon-circle-outline-7></tap-icon-circle-outline-7></IconPreview>
-		<IconPreview title="circle-outline-8"><tap-icon-circle-outline-8></tap-icon-circle-outline-8></IconPreview>
-		<IconPreview title="circle-outline-9"><tap-icon-circle-outline-9></tap-icon-circle-outline-9></IconPreview>
-		<IconPreview title="circle-person"><tap-icon-circle-person></tap-icon-circle-person></IconPreview>
-		<IconPreview title="circle-person-fill"><tap-icon-circle-person-fill></tap-icon-circle-person-fill></IconPreview>
-		<IconPreview title="circle-person-fill-1"><tap-icon-circle-person-fill-1></tap-icon-circle-person-fill-1></IconPreview>
-		<IconPreview title="circle-plus"><tap-icon-circle-plus></tap-icon-circle-plus></IconPreview>
-		<IconPreview title="circle-plus-fill"><tap-icon-circle-plus-fill></tap-icon-circle-plus-fill></IconPreview>
-		<IconPreview title="circle-question-fill"><tap-icon-circle-question-fill></tap-icon-circle-question-fill></IconPreview>
-		<IconPreview title="circle-star"><tap-icon-circle-star></tap-icon-circle-star></IconPreview>
-		<IconPreview title="circle-star-fill"><tap-icon-circle-star-fill></tap-icon-circle-star-fill></IconPreview>
-		<IconPreview title="circle-thunder"><tap-icon-circle-thunder></tap-icon-circle-thunder></IconPreview>
-		<IconPreview title="circle-thunder-fill"><tap-icon-circle-thunder-fill></tap-icon-circle-thunder-fill></IconPreview>
-		<IconPreview title="clipboard-clock"><tap-icon-clipboard-clock></tap-icon-clipboard-clock></IconPreview>
-		<IconPreview title="clipboard-clock-fill"><tap-icon-clipboard-clock-fill></tap-icon-clipboard-clock-fill></IconPreview>
-		<IconPreview title="clips-together"><tap-icon-clips-together></tap-icon-clips-together></IconPreview>
-		<IconPreview title="clock"><tap-icon-clock></tap-icon-clock></IconPreview>
-		<IconPreview title="clock-arrow-circlepath"><tap-icon-clock-arrow-circlepath></tap-icon-clock-arrow-circlepath></IconPreview>
-		<IconPreview title="clock-dashed"><tap-icon-clock-dashed></tap-icon-clock-dashed></IconPreview>
-		<IconPreview title="clock-fill"><tap-icon-clock-fill></tap-icon-clock-fill></IconPreview>
-		<IconPreview title="clock-small"><tap-icon-clock-small></tap-icon-clock-small></IconPreview>
-		<IconPreview title="clock-small-fill"><tap-icon-clock-small-fill></tap-icon-clock-small-fill></IconPreview>
-		<IconPreview title="copy"><tap-icon-copy></tap-icon-copy></IconPreview>
-		<IconPreview title="copy-fill"><tap-icon-copy-fill></tap-icon-copy-fill></IconPreview>
-		<IconPreview title="coupon"><tap-icon-coupon></tap-icon-coupon></IconPreview>
-		<IconPreview title="coupon-fill"><tap-icon-coupon-fill></tap-icon-coupon-fill></IconPreview>
-		<IconPreview title="coupon-puched"><tap-icon-coupon-puched></tap-icon-coupon-puched></IconPreview>
-		<IconPreview title="coupon-puched-fill"><tap-icon-coupon-puched-fill></tap-icon-coupon-puched-fill></IconPreview>
-		<IconPreview title="cross"><tap-icon-cross></tap-icon-cross></IconPreview>
-		<IconPreview title="cross-fill"><tap-icon-cross-fill></tap-icon-cross-fill></IconPreview>
-		<IconPreview title="default"><tap-icon-default></tap-icon-default></IconPreview>
-		<IconPreview title="default-1"><tap-icon-default-1></tap-icon-default-1></IconPreview>
-		<IconPreview title="default-2"><tap-icon-default-2></tap-icon-default-2></IconPreview>
-		<IconPreview title="default-3"><tap-icon-default-3></tap-icon-default-3></IconPreview>
-		<IconPreview title="default-4"><tap-icon-default-4></tap-icon-default-4></IconPreview>
-		<IconPreview title="default-5"><tap-icon-default-5></tap-icon-default-5></IconPreview>
-		<IconPreview title="default-6"><tap-icon-default-6></tap-icon-default-6></IconPreview>
-		<IconPreview title="default-7"><tap-icon-default-7></tap-icon-default-7></IconPreview>
-		<IconPreview title="default-8"><tap-icon-default-8></tap-icon-default-8></IconPreview>
-		<IconPreview title="default-9"><tap-icon-default-9></tap-icon-default-9></IconPreview>
-		<IconPreview title="default-fill"><tap-icon-default-fill></tap-icon-default-fill></IconPreview>
-		<IconPreview title="dialog-box-text"><tap-icon-dialog-box-text></tap-icon-dialog-box-text></IconPreview>
-		<IconPreview title="dialog-box-text-fill"><tap-icon-dialog-box-text-fill></tap-icon-dialog-box-text-fill></IconPreview>
-		<IconPreview title="dialogbox-question"><tap-icon-dialogbox-question></tap-icon-dialogbox-question></IconPreview>
-		<IconPreview title="diamond-arrow-turn-right"><tap-icon-diamond-arrow-turn-right></tap-icon-diamond-arrow-turn-right></IconPreview>
-		<IconPreview title="diamond-arrow-turn-right-1"><tap-icon-diamond-arrow-turn-right-1></tap-icon-diamond-arrow-turn-right-1></IconPreview>
-		<IconPreview title="dot-fill"><tap-icon-dot-fill></tap-icon-dot-fill></IconPreview>
-		<IconPreview title="double-check"><tap-icon-double-check></tap-icon-double-check></IconPreview>
-		<IconPreview title="ear-slash"><tap-icon-ear-slash></tap-icon-ear-slash></IconPreview>
-		<IconPreview title="envelope"><tap-icon-envelope></tap-icon-envelope></IconPreview>
-		<IconPreview title="envelope-fill"><tap-icon-envelope-fill></tap-icon-envelope-fill></IconPreview>
-		<IconPreview title="envelope-open"><tap-icon-envelope-open></tap-icon-envelope-open></IconPreview>
-		<IconPreview title="envelope-open-fill"><tap-icon-envelope-open-fill></tap-icon-envelope-open-fill></IconPreview>
-		<IconPreview title="exclamation"><tap-icon-exclamation></tap-icon-exclamation></IconPreview>
-		<IconPreview title="exclamation-fill"><tap-icon-exclamation-fill></tap-icon-exclamation-fill></IconPreview>
-		<IconPreview title="eye"><tap-icon-eye></tap-icon-eye></IconPreview>
-		<IconPreview title="eye-fill"><tap-icon-eye-fill></tap-icon-eye-fill></IconPreview>
-		<IconPreview title="eye-slash"><tap-icon-eye-slash></tap-icon-eye-slash></IconPreview>
-		<IconPreview title="eye-slash-fill"><tap-icon-eye-slash-fill></tap-icon-eye-slash-fill></IconPreview>
-		<IconPreview title="face-sad"><tap-icon-face-sad></tap-icon-face-sad></IconPreview>
-		<IconPreview title="face-sad-fill"><tap-icon-face-sad-fill></tap-icon-face-sad-fill></IconPreview>
-		<IconPreview title="face-smile"><tap-icon-face-smile></tap-icon-face-smile></IconPreview>
-		<IconPreview title="face-smile-fill"><tap-icon-face-smile-fill></tap-icon-face-smile-fill></IconPreview>
-		<IconPreview title="finger-left-fill"><tap-icon-finger-left-fill></tap-icon-finger-left-fill></IconPreview>
-		<IconPreview title="finger-swipe-vertical"><tap-icon-finger-swipe-vertical></tap-icon-finger-swipe-vertical></IconPreview>
-		<IconPreview title="finger-touch"><tap-icon-finger-touch></tap-icon-finger-touch></IconPreview>
-		<IconPreview title="finger-up-fill"><tap-icon-finger-up-fill></tap-icon-finger-up-fill></IconPreview>
-		<IconPreview title="fire"><tap-icon-fire></tap-icon-fire></IconPreview>
-		<IconPreview title="fire-fill"><tap-icon-fire-fill></tap-icon-fire-fill></IconPreview>
-		<IconPreview title="flag"><tap-icon-flag></tap-icon-flag></IconPreview>
-		<IconPreview title="flag-fill"><tap-icon-flag-fill></tap-icon-flag-fill></IconPreview>
-		<IconPreview title="gas-station"><tap-icon-gas-station></tap-icon-gas-station></IconPreview>
-		<IconPreview title="gas-station-fill"><tap-icon-gas-station-fill></tap-icon-gas-station-fill></IconPreview>
-		<IconPreview title="gear"><tap-icon-gear></tap-icon-gear></IconPreview>
-		<IconPreview title="gear-fill"><tap-icon-gear-fill></tap-icon-gear-fill></IconPreview>
-		<IconPreview title="gift"><tap-icon-gift></tap-icon-gift></IconPreview>
-		<IconPreview title="graduation-cap"><tap-icon-graduation-cap></tap-icon-graduation-cap></IconPreview>
-		<IconPreview title="graduation-cap-fill"><tap-icon-graduation-cap-fill></tap-icon-graduation-cap-fill></IconPreview>
-		<IconPreview title="headphone"><tap-icon-headphone></tap-icon-headphone></IconPreview>
-		<IconPreview title="headphone-fill"><tap-icon-headphone-fill></tap-icon-headphone-fill></IconPreview>
-		<IconPreview title="heart"><tap-icon-heart></tap-icon-heart></IconPreview>
-		<IconPreview title="heart-broken-fill"><tap-icon-heart-broken-fill></tap-icon-heart-broken-fill></IconPreview>
-		<IconPreview title="heart-fill"><tap-icon-heart-fill></tap-icon-heart-fill></IconPreview>
-		<IconPreview title="helmets"><tap-icon-helmets></tap-icon-helmets></IconPreview>
-		<IconPreview title="helmets-fill"><tap-icon-helmets-fill></tap-icon-helmets-fill></IconPreview>
-		<IconPreview title="home"><tap-icon-home></tap-icon-home></IconPreview>
-		<IconPreview title="home-fill"><tap-icon-home-fill></tap-icon-home-fill></IconPreview>
-		<IconPreview title="hourglass"><tap-icon-hourglass></tap-icon-hourglass></IconPreview>
-		<IconPreview title="hourglass-fill"><tap-icon-hourglass-fill></tap-icon-hourglass-fill></IconPreview>
-		<IconPreview title="image"><tap-icon-image></tap-icon-image></IconPreview>
-		<IconPreview title="image-fill"><tap-icon-image-fill></tap-icon-image-fill></IconPreview>
-		<IconPreview title="image-two"><tap-icon-image-two></tap-icon-image-two></IconPreview>
-		<IconPreview title="image-two-fill"><tap-icon-image-two-fill></tap-icon-image-two-fill></IconPreview>
-		<IconPreview title="info"><tap-icon-info></tap-icon-info></IconPreview>
-		<IconPreview title="info-fill"><tap-icon-info-fill></tap-icon-info-fill></IconPreview>
-		<IconPreview title="keyboard"><tap-icon-keyboard></tap-icon-keyboard></IconPreview>
-		<IconPreview title="keyboard-fill"><tap-icon-keyboard-fill></tap-icon-keyboard-fill></IconPreview>
-		<IconPreview title="lamp-spark-fill"><tap-icon-lamp-spark-fill></tap-icon-lamp-spark-fill></IconPreview>
-		<IconPreview title="line-three"><tap-icon-line-three></tap-icon-line-three></IconPreview>
-		<IconPreview title="line-three-horizontal-decrease"><tap-icon-line-three-horizontal-decrease></tap-icon-line-three-horizontal-decrease></IconPreview>
-		<IconPreview title="list-bullet"><tap-icon-list-bullet></tap-icon-list-bullet></IconPreview>
-		<IconPreview title="loading"><tap-icon-loading></tap-icon-loading></IconPreview>
-		<IconPreview title="location-left"><tap-icon-location-left></tap-icon-location-left></IconPreview>
-		<IconPreview title="location-up"><tap-icon-location-up></tap-icon-location-up></IconPreview>
-		<IconPreview title="lock"><tap-icon-lock></tap-icon-lock></IconPreview>
-		<IconPreview title="lock-fill"><tap-icon-lock-fill></tap-icon-lock-fill></IconPreview>
-		<IconPreview title="lock-small"><tap-icon-lock-small></tap-icon-lock-small></IconPreview>
-		<IconPreview title="lock-small-fill"><tap-icon-lock-small-fill></tap-icon-lock-small-fill></IconPreview>
-		<IconPreview title="magnifier"><tap-icon-magnifier></tap-icon-magnifier></IconPreview>
-		<IconPreview title="magnifier-fill"><tap-icon-magnifier-fill></tap-icon-magnifier-fill></IconPreview>
-		<IconPreview title="map"><tap-icon-map></tap-icon-map></IconPreview>
-		<IconPreview title="map-fill"><tap-icon-map-fill></tap-icon-map-fill></IconPreview>
-		<IconPreview title="medal"><tap-icon-medal></tap-icon-medal></IconPreview>
-		<IconPreview title="medal-1"><tap-icon-medal-1></tap-icon-medal-1></IconPreview>
-		<IconPreview title="medal-fill"><tap-icon-medal-fill></tap-icon-medal-fill></IconPreview>
-		<IconPreview title="medal-fill-1"><tap-icon-medal-fill-1></tap-icon-medal-fill-1></IconPreview>
-		<IconPreview title="microphone"><tap-icon-microphone></tap-icon-microphone></IconPreview>
-		<IconPreview title="microphone-fill"><tap-icon-microphone-fill></tap-icon-microphone-fill></IconPreview>
-		<IconPreview title="microphone-slash"><tap-icon-microphone-slash></tap-icon-microphone-slash></IconPreview>
-		<IconPreview title="microphone-slash-fill"><tap-icon-microphone-slash-fill></tap-icon-microphone-slash-fill></IconPreview>
-		<IconPreview title="microphone-spark"><tap-icon-microphone-spark></tap-icon-microphone-spark></IconPreview>
-		<IconPreview title="microphone-spark-fill"><tap-icon-microphone-spark-fill></tap-icon-microphone-spark-fill></IconPreview>
-		<IconPreview title="minus"><tap-icon-minus></tap-icon-minus></IconPreview>
-		<IconPreview title="minus-fill"><tap-icon-minus-fill></tap-icon-minus-fill></IconPreview>
-		<IconPreview title="moon"><tap-icon-moon></tap-icon-moon></IconPreview>
-		<IconPreview title="moon-fill"><tap-icon-moon-fill></tap-icon-moon-fill></IconPreview>
-		<IconPreview title="more-horizontal"><tap-icon-more-horizontal></tap-icon-more-horizontal></IconPreview>
-		<IconPreview title="more-horizontal-fill"><tap-icon-more-horizontal-fill></tap-icon-more-horizontal-fill></IconPreview>
-		<IconPreview title="more-vertical"><tap-icon-more-vertical></tap-icon-more-vertical></IconPreview>
-		<IconPreview title="more-vertical-fill"><tap-icon-more-vertical-fill></tap-icon-more-vertical-fill></IconPreview>
-		<IconPreview title="motorcycle"><tap-icon-motorcycle></tap-icon-motorcycle></IconPreview>
-		<IconPreview title="pause"><tap-icon-pause></tap-icon-pause></IconPreview>
-		<IconPreview title="pencil-line"><tap-icon-pencil-line></tap-icon-pencil-line></IconPreview>
-		<IconPreview title="pencil-line-fill"><tap-icon-pencil-line-fill></tap-icon-pencil-line-fill></IconPreview>
-		<IconPreview title="person"><tap-icon-person></tap-icon-person></IconPreview>
-		<IconPreview title="person-1"><tap-icon-person-1></tap-icon-person-1></IconPreview>
-		<IconPreview title="person-fill"><tap-icon-person-fill></tap-icon-person-fill></IconPreview>
-		<IconPreview title="person-fill-1"><tap-icon-person-fill-1></tap-icon-person-fill-1></IconPreview>
-		<IconPreview title="person-in-wheelchair"><tap-icon-person-in-wheelchair></tap-icon-person-in-wheelchair></IconPreview>
-		<IconPreview title="person-minus"><tap-icon-person-minus></tap-icon-person-minus></IconPreview>
-		<IconPreview title="person-minus-fill"><tap-icon-person-minus-fill></tap-icon-person-minus-fill></IconPreview>
-		<IconPreview title="person-plus"><tap-icon-person-plus></tap-icon-person-plus></IconPreview>
-		<IconPreview title="person-plus-fill"><tap-icon-person-plus-fill></tap-icon-person-plus-fill></IconPreview>
-		<IconPreview title="person-two"><tap-icon-person-two></tap-icon-person-two></IconPreview>
-		<IconPreview title="person-two-fill"><tap-icon-person-two-fill></tap-icon-person-two-fill></IconPreview>
-		<IconPreview title="person-wave"><tap-icon-person-wave></tap-icon-person-wave></IconPreview>
-		<IconPreview title="person-wave-fill"><tap-icon-person-wave-fill></tap-icon-person-wave-fill></IconPreview>
-		<IconPreview title="phone"><tap-icon-phone></tap-icon-phone></IconPreview>
-		<IconPreview title="phone-fill"><tap-icon-phone-fill></tap-icon-phone-fill></IconPreview>
-		<IconPreview title="phone-vibrate"><tap-icon-phone-vibrate></tap-icon-phone-vibrate></IconPreview>
-		<IconPreview title="phone-vibrate-fill"><tap-icon-phone-vibrate-fill></tap-icon-phone-vibrate-fill></IconPreview>
-		<IconPreview title="pin"><tap-icon-pin></tap-icon-pin></IconPreview>
-		<IconPreview title="pin-cross"><tap-icon-pin-cross></tap-icon-pin-cross></IconPreview>
-		<IconPreview title="pin-cross-fill"><tap-icon-pin-cross-fill></tap-icon-pin-cross-fill></IconPreview>
-		<IconPreview title="pin-fill"><tap-icon-pin-fill></tap-icon-pin-fill></IconPreview>
-		<IconPreview title="pin-on-map"><tap-icon-pin-on-map></tap-icon-pin-on-map></IconPreview>
-		<IconPreview title="pin-on-map-fill"><tap-icon-pin-on-map-fill></tap-icon-pin-on-map-fill></IconPreview>
-		<IconPreview title="pin-wave"><tap-icon-pin-wave></tap-icon-pin-wave></IconPreview>
-		<IconPreview title="pin-wave-fill"><tap-icon-pin-wave-fill></tap-icon-pin-wave-fill></IconPreview>
-		<IconPreview title="plane"><tap-icon-plane></tap-icon-plane></IconPreview>
-		<IconPreview title="plane-fill"><tap-icon-plane-fill></tap-icon-plane-fill></IconPreview>
-		<IconPreview title="planet-earth"><tap-icon-planet-earth></tap-icon-planet-earth></IconPreview>
-		<IconPreview title="play"><tap-icon-play></tap-icon-play></IconPreview>
-		<IconPreview title="plus"><tap-icon-plus></tap-icon-plus></IconPreview>
-		<IconPreview title="plus-fill"><tap-icon-plus-fill></tap-icon-plus-fill></IconPreview>
-		<IconPreview title="point-three-connected-trianglepath-line"><tap-icon-point-three-connected-trianglepath-line></tap-icon-point-three-connected-trianglepath-line></IconPreview>
-		<IconPreview title="point-three-connected-trianglepath-line-fill"><tap-icon-point-three-connected-trianglepath-line-fill></tap-icon-point-three-connected-trianglepath-line-fill></IconPreview>
-		<IconPreview title="power"><tap-icon-power></tap-icon-power></IconPreview>
-		<IconPreview title="question"><tap-icon-question></tap-icon-question></IconPreview>
-		<IconPreview title="record"><tap-icon-record></tap-icon-record></IconPreview>
-		<IconPreview title="rectangle-person-text"><tap-icon-rectangle-person-text></tap-icon-rectangle-person-text></IconPreview>
-		<IconPreview title="rectangle-person-text-with-badge"><tap-icon-rectangle-person-text-with-badge></tap-icon-rectangle-person-text-with-badge></IconPreview>
-		<IconPreview title="send-chat"><tap-icon-send-chat></tap-icon-send-chat></IconPreview>
-		<IconPreview title="send-chat-fill"><tap-icon-send-chat-fill></tap-icon-send-chat-fill></IconPreview>
-		<IconPreview title="share"><tap-icon-share></tap-icon-share></IconPreview>
-		<IconPreview title="share-fill"><tap-icon-share-fill></tap-icon-share-fill></IconPreview>
-		<IconPreview title="shield-tick"><tap-icon-shield-tick></tap-icon-shield-tick></IconPreview>
-		<IconPreview title="shield-tick-fill"><tap-icon-shield-tick-fill></tap-icon-shield-tick-fill></IconPreview>
-		<IconPreview title="shopping-bag"><tap-icon-shopping-bag></tap-icon-shopping-bag></IconPreview>
-		<IconPreview title="shopping-bag-fill"><tap-icon-shopping-bag-fill></tap-icon-shopping-bag-fill></IconPreview>
-		<IconPreview title="shopping-cart"><tap-icon-shopping-cart></tap-icon-shopping-cart></IconPreview>
-		<IconPreview title="shopping-cart-fill"><tap-icon-shopping-cart-fill></tap-icon-shopping-cart-fill></IconPreview>
-		<IconPreview title="single-check"><tap-icon-single-check></tap-icon-single-check></IconPreview>
-		<IconPreview title="siren"><tap-icon-siren></tap-icon-siren></IconPreview>
-		<IconPreview title="siren-fill"><tap-icon-siren-fill></tap-icon-siren-fill></IconPreview>
-		<IconPreview title="slider-horizontal"><tap-icon-slider-horizontal></tap-icon-slider-horizontal></IconPreview>
-		<IconPreview title="slider-horizontal-fill"><tap-icon-slider-horizontal-fill></tap-icon-slider-horizontal-fill></IconPreview>
-		<IconPreview title="spark"><tap-icon-spark></tap-icon-spark></IconPreview>
-		<IconPreview title="spark-fill"><tap-icon-spark-fill></tap-icon-spark-fill></IconPreview>
-		<IconPreview title="spark-small"><tap-icon-spark-small></tap-icon-spark-small></IconPreview>
-		<IconPreview title="spark-small-fill"><tap-icon-spark-small-fill></tap-icon-spark-small-fill></IconPreview>
-		<IconPreview title="spark-three"><tap-icon-spark-three></tap-icon-spark-three></IconPreview>
-		<IconPreview title="spark-three-fill"><tap-icon-spark-three-fill></tap-icon-spark-three-fill></IconPreview>
-		<IconPreview title="speaker-cross"><tap-icon-speaker-cross></tap-icon-speaker-cross></IconPreview>
-		<IconPreview title="speaker-exclamation"><tap-icon-speaker-exclamation></tap-icon-speaker-exclamation></IconPreview>
-		<IconPreview title="speaker-wave"><tap-icon-speaker-wave></tap-icon-speaker-wave></IconPreview>
-		<IconPreview title="spiral-dot-two"><tap-icon-spiral-dot-two></tap-icon-spiral-dot-two></IconPreview>
-		<IconPreview title="square-above-squares"><tap-icon-square-above-squares></tap-icon-square-above-squares></IconPreview>
-		<IconPreview title="square-fill"><tap-icon-square-fill></tap-icon-square-fill></IconPreview>
-		<IconPreview title="square-fill-1"><tap-icon-square-fill-1></tap-icon-square-fill-1></IconPreview>
-		<IconPreview title="square-fill-2"><tap-icon-square-fill-2></tap-icon-square-fill-2></IconPreview>
-		<IconPreview title="square-fill-3"><tap-icon-square-fill-3></tap-icon-square-fill-3></IconPreview>
-		<IconPreview title="square-fill-4"><tap-icon-square-fill-4></tap-icon-square-fill-4></IconPreview>
-		<IconPreview title="square-fill-5"><tap-icon-square-fill-5></tap-icon-square-fill-5></IconPreview>
-		<IconPreview title="square-fill-6"><tap-icon-square-fill-6></tap-icon-square-fill-6></IconPreview>
-		<IconPreview title="square-fill-7"><tap-icon-square-fill-7></tap-icon-square-fill-7></IconPreview>
-		<IconPreview title="square-fill-8"><tap-icon-square-fill-8></tap-icon-square-fill-8></IconPreview>
-		<IconPreview title="square-fill-9"><tap-icon-square-fill-9></tap-icon-square-fill-9></IconPreview>
-		<IconPreview title="square-four"><tap-icon-square-four></tap-icon-square-four></IconPreview>
-		<IconPreview title="square-four-fill"><tap-icon-square-four-fill></tap-icon-square-four-fill></IconPreview>
-		<IconPreview title="square-grid"><tap-icon-square-grid></tap-icon-square-grid></IconPreview>
-		<IconPreview title="square-grid-fill"><tap-icon-square-grid-fill></tap-icon-square-grid-fill></IconPreview>
-		<IconPreview title="square-grid-rounded"><tap-icon-square-grid-rounded></tap-icon-square-grid-rounded></IconPreview>
-		<IconPreview title="square-grid-rounded-fill"><tap-icon-square-grid-rounded-fill></tap-icon-square-grid-rounded-fill></IconPreview>
-		<IconPreview title="square-more"><tap-icon-square-more></tap-icon-square-more></IconPreview>
-		<IconPreview title="square-more-fill"><tap-icon-square-more-fill></tap-icon-square-more-fill></IconPreview>
-		<IconPreview title="square-outline-1"><tap-icon-square-outline-1></tap-icon-square-outline-1></IconPreview>
-		<IconPreview title="square-outline-2"><tap-icon-square-outline-2></tap-icon-square-outline-2></IconPreview>
-		<IconPreview title="square-outline-3"><tap-icon-square-outline-3></tap-icon-square-outline-3></IconPreview>
-		<IconPreview title="square-outline-4"><tap-icon-square-outline-4></tap-icon-square-outline-4></IconPreview>
-		<IconPreview title="square-outline-5"><tap-icon-square-outline-5></tap-icon-square-outline-5></IconPreview>
-		<IconPreview title="square-outline-6"><tap-icon-square-outline-6></tap-icon-square-outline-6></IconPreview>
-		<IconPreview title="square-outline-7"><tap-icon-square-outline-7></tap-icon-square-outline-7></IconPreview>
-		<IconPreview title="square-outline-8"><tap-icon-square-outline-8></tap-icon-square-outline-8></IconPreview>
-		<IconPreview title="square-outline-9"><tap-icon-square-outline-9></tap-icon-square-outline-9></IconPreview>
-		<IconPreview title="square-person"><tap-icon-square-person></tap-icon-square-person></IconPreview>
-		<IconPreview title="square-person-fill"><tap-icon-square-person-fill></tap-icon-square-person-fill></IconPreview>
-		<IconPreview title="star"><tap-icon-star></tap-icon-star></IconPreview>
-		<IconPreview title="star-fill"><tap-icon-star-fill></tap-icon-star-fill></IconPreview>
-		<IconPreview title="steer"><tap-icon-steer></tap-icon-steer></IconPreview>
-		<IconPreview title="steer-fill"><tap-icon-steer-fill></tap-icon-steer-fill></IconPreview>
-		<IconPreview title="sticky-note"><tap-icon-sticky-note></tap-icon-sticky-note></IconPreview>
-		<IconPreview title="sticky-note-fill"><tap-icon-sticky-note-fill></tap-icon-sticky-note-fill></IconPreview>
-		<IconPreview title="store"><tap-icon-store></tap-icon-store></IconPreview>
-		<IconPreview title="store-fill"><tap-icon-store-fill></tap-icon-store-fill></IconPreview>
-		<IconPreview title="sun"><tap-icon-sun></tap-icon-sun></IconPreview>
-		<IconPreview title="sun-fill"><tap-icon-sun-fill></tap-icon-sun-fill></IconPreview>
-		<IconPreview title="tapsi-logo"><tap-icon-tapsi-logo></tap-icon-tapsi-logo></IconPreview>
-		<IconPreview title="target"><tap-icon-target></tap-icon-target></IconPreview>
-		<IconPreview title="target-fill"><tap-icon-target-fill></tap-icon-target-fill></IconPreview>
-		<IconPreview title="target-slash"><tap-icon-target-slash></tap-icon-target-slash></IconPreview>
-		<IconPreview title="telephone"><tap-icon-telephone></tap-icon-telephone></IconPreview>
-		<IconPreview title="telephone-fill"><tap-icon-telephone-fill></tap-icon-telephone-fill></IconPreview>
-		<IconPreview title="thumb-down"><tap-icon-thumb-down></tap-icon-thumb-down></IconPreview>
-		<IconPreview title="thumb-down-fill"><tap-icon-thumb-down-fill></tap-icon-thumb-down-fill></IconPreview>
-		<IconPreview title="thumb-up"><tap-icon-thumb-up></tap-icon-thumb-up></IconPreview>
-		<IconPreview title="thumb-up-fill"><tap-icon-thumb-up-fill></tap-icon-thumb-up-fill></IconPreview>
-		<IconPreview title="timer"><tap-icon-timer></tap-icon-timer></IconPreview>
-		<IconPreview title="timer-fill"><tap-icon-timer-fill></tap-icon-timer-fill></IconPreview>
-		<IconPreview title="traffic-light"><tap-icon-traffic-light></tap-icon-traffic-light></IconPreview>
-		<IconPreview title="traffic-light-fill"><tap-icon-traffic-light-fill></tap-icon-traffic-light-fill></IconPreview>
-		<IconPreview title="trash"><tap-icon-trash></tap-icon-trash></IconPreview>
-		<IconPreview title="trash-fill"><tap-icon-trash-fill></tap-icon-trash-fill></IconPreview>
-		<IconPreview title="triangle-exclamation"><tap-icon-triangle-exclamation></tap-icon-triangle-exclamation></IconPreview>
-		<IconPreview title="triangle-exclamation-fill"><tap-icon-triangle-exclamation-fill></tap-icon-triangle-exclamation-fill></IconPreview>
-		<IconPreview title="ufo"><tap-icon-ufo></tap-icon-ufo></IconPreview>
-		<IconPreview title="ufo-fill"><tap-icon-ufo-fill></tap-icon-ufo-fill></IconPreview>
-		<IconPreview title="video-two"><tap-icon-video-two></tap-icon-video-two></IconPreview>
-		<IconPreview title="video-two-fill"><tap-icon-video-two-fill></tap-icon-video-two-fill></IconPreview>
-		<IconPreview title="wallet"><tap-icon-wallet></tap-icon-wallet></IconPreview>
-		<IconPreview title="wallet-fill"><tap-icon-wallet-fill></tap-icon-wallet-fill></IconPreview>
-		<IconPreview title="wallet-swap"><tap-icon-wallet-swap></tap-icon-wallet-swap></IconPreview>
-		<IconPreview title="wifi"><tap-icon-wifi></tap-icon-wifi></IconPreview>
-		<IconPreview title="wifi-slash"><tap-icon-wifi-slash></tap-icon-wifi-slash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="alarm-clock"><tap-icon-alarm-clock></tap-icon-alarm-clock></IconPreview>
+		<IconPreview :select-icon=selectIcon title="alarm-clock-fill"><tap-icon-alarm-clock-fill></tap-icon-alarm-clock-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="arrow-top-right"><tap-icon-arrow-top-right></tap-icon-arrow-top-right></IconPreview>
+		<IconPreview :select-icon=selectIcon title="arrow-top-right-fill"><tap-icon-arrow-top-right-fill></tap-icon-arrow-top-right-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="arrow-top-right-question"><tap-icon-arrow-top-right-question></tap-icon-arrow-top-right-question></IconPreview>
+		<IconPreview :select-icon=selectIcon title="arrow-top-right-question-fill"><tap-icon-arrow-top-right-question-fill></tap-icon-arrow-top-right-question-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="banknote"><tap-icon-banknote></tap-icon-banknote></IconPreview>
+		<IconPreview :select-icon=selectIcon title="banknote-fill"><tap-icon-banknote-fill></tap-icon-banknote-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="banknote-two"><tap-icon-banknote-two></tap-icon-banknote-two></IconPreview>
+		<IconPreview :select-icon=selectIcon title="banknote-two-fill"><tap-icon-banknote-two-fill></tap-icon-banknote-two-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="bell"><tap-icon-bell></tap-icon-bell></IconPreview>
+		<IconPreview :select-icon=selectIcon title="bell-dot-fill"><tap-icon-bell-dot-fill></tap-icon-bell-dot-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="bell-fill"><tap-icon-bell-fill></tap-icon-bell-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="bookmark"><tap-icon-bookmark></tap-icon-bookmark></IconPreview>
+		<IconPreview :select-icon=selectIcon title="bookmark-fill"><tap-icon-bookmark-fill></tap-icon-bookmark-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="box"><tap-icon-box></tap-icon-box></IconPreview>
+		<IconPreview :select-icon=selectIcon title="box-check"><tap-icon-box-check></tap-icon-box-check></IconPreview>
+		<IconPreview :select-icon=selectIcon title="box-fill"><tap-icon-box-fill></tap-icon-box-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="briefcase"><tap-icon-briefcase></tap-icon-briefcase></IconPreview>
+		<IconPreview :select-icon=selectIcon title="briefcase-fill"><tap-icon-briefcase-fill></tap-icon-briefcase-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="building"><tap-icon-building></tap-icon-building></IconPreview>
+		<IconPreview :select-icon=selectIcon title="building-fill"><tap-icon-building-fill></tap-icon-building-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="calendar"><tap-icon-calendar></tap-icon-calendar></IconPreview>
+		<IconPreview :select-icon=selectIcon title="calendar-fill"><tap-icon-calendar-fill></tap-icon-calendar-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="call-dialog-box"><tap-icon-call-dialog-box></tap-icon-call-dialog-box></IconPreview>
+		<IconPreview :select-icon=selectIcon title="call-left"><tap-icon-call-left></tap-icon-call-left></IconPreview>
+		<IconPreview :select-icon=selectIcon title="call-left-slash"><tap-icon-call-left-slash></tap-icon-call-left-slash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="call-righ"><tap-icon-call-righ></tap-icon-call-righ></IconPreview>
+		<IconPreview :select-icon=selectIcon title="call-right-slash"><tap-icon-call-right-slash></tap-icon-call-right-slash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="camera"><tap-icon-camera></tap-icon-camera></IconPreview>
+		<IconPreview :select-icon=selectIcon title="camera-fill"><tap-icon-camera-fill></tap-icon-camera-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="camera-plus"><tap-icon-camera-plus></tap-icon-camera-plus></IconPreview>
+		<IconPreview :select-icon=selectIcon title="car"><tap-icon-car></tap-icon-car></IconPreview>
+		<IconPreview :select-icon=selectIcon title="car-clock"><tap-icon-car-clock></tap-icon-car-clock></IconPreview>
+		<IconPreview :select-icon=selectIcon title="car-clock-fill"><tap-icon-car-clock-fill></tap-icon-car-clock-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="car-fill"><tap-icon-car-fill></tap-icon-car-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="car-slash"><tap-icon-car-slash></tap-icon-car-slash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="car-slash-fill"><tap-icon-car-slash-fill></tap-icon-car-slash-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="car-spark"><tap-icon-car-spark></tap-icon-car-spark></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card"><tap-icon-card></tap-icon-card></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-fill"><tap-icon-card-fill></tap-icon-card-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-left-arrow"><tap-icon-card-left-arrow></tap-icon-card-left-arrow></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-left-arrow-fill"><tap-icon-card-left-arrow-fill></tap-icon-card-left-arrow-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-plus"><tap-icon-card-plus></tap-icon-card-plus></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-plus-fill"><tap-icon-card-plus-fill></tap-icon-card-plus-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-right-arrow"><tap-icon-card-right-arrow></tap-icon-card-right-arrow></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-right-arrow-fill"><tap-icon-card-right-arrow-fill></tap-icon-card-right-arrow-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-spark"><tap-icon-card-spark></tap-icon-card-spark></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-spark-fill"><tap-icon-card-spark-fill></tap-icon-card-spark-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-time"><tap-icon-card-time></tap-icon-card-time></IconPreview>
+		<IconPreview :select-icon=selectIcon title="card-time-fill"><tap-icon-card-time-fill></tap-icon-card-time-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="check"><tap-icon-check></tap-icon-check></IconPreview>
+		<IconPreview :select-icon=selectIcon title="check-fill"><tap-icon-check-fill></tap-icon-check-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-check"><tap-icon-circle-check></tap-icon-circle-check></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-check-fill"><tap-icon-circle-check-fill></tap-icon-circle-check-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-check-small"><tap-icon-circle-check-small></tap-icon-circle-check-small></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-check-small-fill"><tap-icon-circle-check-small-fill></tap-icon-circle-check-small-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-cross"><tap-icon-circle-cross></tap-icon-circle-cross></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-cross-fill"><tap-icon-circle-cross-fill></tap-icon-circle-cross-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-exclamation"><tap-icon-circle-exclamation></tap-icon-circle-exclamation></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-exclamation-fill"><tap-icon-circle-exclamation-fill></tap-icon-circle-exclamation-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-1"><tap-icon-circle-fill-1></tap-icon-circle-fill-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-2"><tap-icon-circle-fill-2></tap-icon-circle-fill-2></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-3"><tap-icon-circle-fill-3></tap-icon-circle-fill-3></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-4"><tap-icon-circle-fill-4></tap-icon-circle-fill-4></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-5"><tap-icon-circle-fill-5></tap-icon-circle-fill-5></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-6"><tap-icon-circle-fill-6></tap-icon-circle-fill-6></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-7"><tap-icon-circle-fill-7></tap-icon-circle-fill-7></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-8"><tap-icon-circle-fill-8></tap-icon-circle-fill-8></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-fill-9"><tap-icon-circle-fill-9></tap-icon-circle-fill-9></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-information"><tap-icon-circle-information></tap-icon-circle-information></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-information-fill"><tap-icon-circle-information-fill></tap-icon-circle-information-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-minus"><tap-icon-circle-minus></tap-icon-circle-minus></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-minus-fill"><tap-icon-circle-minus-fill></tap-icon-circle-minus-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-more-fill"><tap-icon-circle-more-fill></tap-icon-circle-more-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-1"><tap-icon-circle-outline-1></tap-icon-circle-outline-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-2"><tap-icon-circle-outline-2></tap-icon-circle-outline-2></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-3"><tap-icon-circle-outline-3></tap-icon-circle-outline-3></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-4"><tap-icon-circle-outline-4></tap-icon-circle-outline-4></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-5"><tap-icon-circle-outline-5></tap-icon-circle-outline-5></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-6"><tap-icon-circle-outline-6></tap-icon-circle-outline-6></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-7"><tap-icon-circle-outline-7></tap-icon-circle-outline-7></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-8"><tap-icon-circle-outline-8></tap-icon-circle-outline-8></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-outline-9"><tap-icon-circle-outline-9></tap-icon-circle-outline-9></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-person"><tap-icon-circle-person></tap-icon-circle-person></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-person-fill"><tap-icon-circle-person-fill></tap-icon-circle-person-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-person-fill-1"><tap-icon-circle-person-fill-1></tap-icon-circle-person-fill-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-plus"><tap-icon-circle-plus></tap-icon-circle-plus></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-plus-fill"><tap-icon-circle-plus-fill></tap-icon-circle-plus-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-question-fill"><tap-icon-circle-question-fill></tap-icon-circle-question-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-star"><tap-icon-circle-star></tap-icon-circle-star></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-star-fill"><tap-icon-circle-star-fill></tap-icon-circle-star-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-thunder"><tap-icon-circle-thunder></tap-icon-circle-thunder></IconPreview>
+		<IconPreview :select-icon=selectIcon title="circle-thunder-fill"><tap-icon-circle-thunder-fill></tap-icon-circle-thunder-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clipboard-clock"><tap-icon-clipboard-clock></tap-icon-clipboard-clock></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clipboard-clock-fill"><tap-icon-clipboard-clock-fill></tap-icon-clipboard-clock-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clips-together"><tap-icon-clips-together></tap-icon-clips-together></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clock"><tap-icon-clock></tap-icon-clock></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clock-arrow-circlepath"><tap-icon-clock-arrow-circlepath></tap-icon-clock-arrow-circlepath></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clock-dashed"><tap-icon-clock-dashed></tap-icon-clock-dashed></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clock-fill"><tap-icon-clock-fill></tap-icon-clock-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clock-small"><tap-icon-clock-small></tap-icon-clock-small></IconPreview>
+		<IconPreview :select-icon=selectIcon title="clock-small-fill"><tap-icon-clock-small-fill></tap-icon-clock-small-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="copy"><tap-icon-copy></tap-icon-copy></IconPreview>
+		<IconPreview :select-icon=selectIcon title="copy-fill"><tap-icon-copy-fill></tap-icon-copy-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="coupon"><tap-icon-coupon></tap-icon-coupon></IconPreview>
+		<IconPreview :select-icon=selectIcon title="coupon-fill"><tap-icon-coupon-fill></tap-icon-coupon-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="coupon-puched"><tap-icon-coupon-puched></tap-icon-coupon-puched></IconPreview>
+		<IconPreview :select-icon=selectIcon title="coupon-puched-fill"><tap-icon-coupon-puched-fill></tap-icon-coupon-puched-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="cross"><tap-icon-cross></tap-icon-cross></IconPreview>
+		<IconPreview :select-icon=selectIcon title="cross-fill"><tap-icon-cross-fill></tap-icon-cross-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default"><tap-icon-default></tap-icon-default></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-1"><tap-icon-default-1></tap-icon-default-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-2"><tap-icon-default-2></tap-icon-default-2></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-3"><tap-icon-default-3></tap-icon-default-3></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-4"><tap-icon-default-4></tap-icon-default-4></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-5"><tap-icon-default-5></tap-icon-default-5></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-6"><tap-icon-default-6></tap-icon-default-6></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-7"><tap-icon-default-7></tap-icon-default-7></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-8"><tap-icon-default-8></tap-icon-default-8></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-9"><tap-icon-default-9></tap-icon-default-9></IconPreview>
+		<IconPreview :select-icon=selectIcon title="default-fill"><tap-icon-default-fill></tap-icon-default-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="dialog-box-text"><tap-icon-dialog-box-text></tap-icon-dialog-box-text></IconPreview>
+		<IconPreview :select-icon=selectIcon title="dialog-box-text-fill"><tap-icon-dialog-box-text-fill></tap-icon-dialog-box-text-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="dialogbox-question"><tap-icon-dialogbox-question></tap-icon-dialogbox-question></IconPreview>
+		<IconPreview :select-icon=selectIcon title="diamond-arrow-turn-right"><tap-icon-diamond-arrow-turn-right></tap-icon-diamond-arrow-turn-right></IconPreview>
+		<IconPreview :select-icon=selectIcon title="diamond-arrow-turn-right-1"><tap-icon-diamond-arrow-turn-right-1></tap-icon-diamond-arrow-turn-right-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="dot-fill"><tap-icon-dot-fill></tap-icon-dot-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="double-check"><tap-icon-double-check></tap-icon-double-check></IconPreview>
+		<IconPreview :select-icon=selectIcon title="ear-slash"><tap-icon-ear-slash></tap-icon-ear-slash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="envelope"><tap-icon-envelope></tap-icon-envelope></IconPreview>
+		<IconPreview :select-icon=selectIcon title="envelope-fill"><tap-icon-envelope-fill></tap-icon-envelope-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="envelope-open"><tap-icon-envelope-open></tap-icon-envelope-open></IconPreview>
+		<IconPreview :select-icon=selectIcon title="envelope-open-fill"><tap-icon-envelope-open-fill></tap-icon-envelope-open-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="exclamation"><tap-icon-exclamation></tap-icon-exclamation></IconPreview>
+		<IconPreview :select-icon=selectIcon title="exclamation-fill"><tap-icon-exclamation-fill></tap-icon-exclamation-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="eye"><tap-icon-eye></tap-icon-eye></IconPreview>
+		<IconPreview :select-icon=selectIcon title="eye-fill"><tap-icon-eye-fill></tap-icon-eye-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="eye-slash"><tap-icon-eye-slash></tap-icon-eye-slash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="eye-slash-fill"><tap-icon-eye-slash-fill></tap-icon-eye-slash-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="face-sad"><tap-icon-face-sad></tap-icon-face-sad></IconPreview>
+		<IconPreview :select-icon=selectIcon title="face-sad-fill"><tap-icon-face-sad-fill></tap-icon-face-sad-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="face-smile"><tap-icon-face-smile></tap-icon-face-smile></IconPreview>
+		<IconPreview :select-icon=selectIcon title="face-smile-fill"><tap-icon-face-smile-fill></tap-icon-face-smile-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="finger-left-fill"><tap-icon-finger-left-fill></tap-icon-finger-left-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="finger-swipe-vertical"><tap-icon-finger-swipe-vertical></tap-icon-finger-swipe-vertical></IconPreview>
+		<IconPreview :select-icon=selectIcon title="finger-touch"><tap-icon-finger-touch></tap-icon-finger-touch></IconPreview>
+		<IconPreview :select-icon=selectIcon title="finger-up-fill"><tap-icon-finger-up-fill></tap-icon-finger-up-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="fire"><tap-icon-fire></tap-icon-fire></IconPreview>
+		<IconPreview :select-icon=selectIcon title="fire-fill"><tap-icon-fire-fill></tap-icon-fire-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="flag"><tap-icon-flag></tap-icon-flag></IconPreview>
+		<IconPreview :select-icon=selectIcon title="flag-fill"><tap-icon-flag-fill></tap-icon-flag-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="gas-station"><tap-icon-gas-station></tap-icon-gas-station></IconPreview>
+		<IconPreview :select-icon=selectIcon title="gas-station-fill"><tap-icon-gas-station-fill></tap-icon-gas-station-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="gear"><tap-icon-gear></tap-icon-gear></IconPreview>
+		<IconPreview :select-icon=selectIcon title="gear-fill"><tap-icon-gear-fill></tap-icon-gear-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="gift"><tap-icon-gift></tap-icon-gift></IconPreview>
+		<IconPreview :select-icon=selectIcon title="graduation-cap"><tap-icon-graduation-cap></tap-icon-graduation-cap></IconPreview>
+		<IconPreview :select-icon=selectIcon title="graduation-cap-fill"><tap-icon-graduation-cap-fill></tap-icon-graduation-cap-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="headphone"><tap-icon-headphone></tap-icon-headphone></IconPreview>
+		<IconPreview :select-icon=selectIcon title="headphone-fill"><tap-icon-headphone-fill></tap-icon-headphone-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="heart"><tap-icon-heart></tap-icon-heart></IconPreview>
+		<IconPreview :select-icon=selectIcon title="heart-broken-fill"><tap-icon-heart-broken-fill></tap-icon-heart-broken-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="heart-fill"><tap-icon-heart-fill></tap-icon-heart-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="helmets"><tap-icon-helmets></tap-icon-helmets></IconPreview>
+		<IconPreview :select-icon=selectIcon title="helmets-fill"><tap-icon-helmets-fill></tap-icon-helmets-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="home"><tap-icon-home></tap-icon-home></IconPreview>
+		<IconPreview :select-icon=selectIcon title="home-fill"><tap-icon-home-fill></tap-icon-home-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="hourglass"><tap-icon-hourglass></tap-icon-hourglass></IconPreview>
+		<IconPreview :select-icon=selectIcon title="hourglass-fill"><tap-icon-hourglass-fill></tap-icon-hourglass-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="image"><tap-icon-image></tap-icon-image></IconPreview>
+		<IconPreview :select-icon=selectIcon title="image-fill"><tap-icon-image-fill></tap-icon-image-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="image-two"><tap-icon-image-two></tap-icon-image-two></IconPreview>
+		<IconPreview :select-icon=selectIcon title="image-two-fill"><tap-icon-image-two-fill></tap-icon-image-two-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="info"><tap-icon-info></tap-icon-info></IconPreview>
+		<IconPreview :select-icon=selectIcon title="info-fill"><tap-icon-info-fill></tap-icon-info-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="keyboard"><tap-icon-keyboard></tap-icon-keyboard></IconPreview>
+		<IconPreview :select-icon=selectIcon title="keyboard-fill"><tap-icon-keyboard-fill></tap-icon-keyboard-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="lamp-spark-fill"><tap-icon-lamp-spark-fill></tap-icon-lamp-spark-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="line-three"><tap-icon-line-three></tap-icon-line-three></IconPreview>
+		<IconPreview :select-icon=selectIcon title="line-three-horizontal-decrease"><tap-icon-line-three-horizontal-decrease></tap-icon-line-three-horizontal-decrease></IconPreview>
+		<IconPreview :select-icon=selectIcon title="list-bullet"><tap-icon-list-bullet></tap-icon-list-bullet></IconPreview>
+		<IconPreview :select-icon=selectIcon title="loading"><tap-icon-loading></tap-icon-loading></IconPreview>
+		<IconPreview :select-icon=selectIcon title="location-left"><tap-icon-location-left></tap-icon-location-left></IconPreview>
+		<IconPreview :select-icon=selectIcon title="location-up"><tap-icon-location-up></tap-icon-location-up></IconPreview>
+		<IconPreview :select-icon=selectIcon title="lock"><tap-icon-lock></tap-icon-lock></IconPreview>
+		<IconPreview :select-icon=selectIcon title="lock-fill"><tap-icon-lock-fill></tap-icon-lock-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="lock-small"><tap-icon-lock-small></tap-icon-lock-small></IconPreview>
+		<IconPreview :select-icon=selectIcon title="lock-small-fill"><tap-icon-lock-small-fill></tap-icon-lock-small-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="magnifier"><tap-icon-magnifier></tap-icon-magnifier></IconPreview>
+		<IconPreview :select-icon=selectIcon title="magnifier-fill"><tap-icon-magnifier-fill></tap-icon-magnifier-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="map"><tap-icon-map></tap-icon-map></IconPreview>
+		<IconPreview :select-icon=selectIcon title="map-fill"><tap-icon-map-fill></tap-icon-map-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="medal"><tap-icon-medal></tap-icon-medal></IconPreview>
+		<IconPreview :select-icon=selectIcon title="medal-1"><tap-icon-medal-1></tap-icon-medal-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="medal-fill"><tap-icon-medal-fill></tap-icon-medal-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="medal-fill-1"><tap-icon-medal-fill-1></tap-icon-medal-fill-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="microphone"><tap-icon-microphone></tap-icon-microphone></IconPreview>
+		<IconPreview :select-icon=selectIcon title="microphone-fill"><tap-icon-microphone-fill></tap-icon-microphone-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="microphone-slash"><tap-icon-microphone-slash></tap-icon-microphone-slash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="microphone-slash-fill"><tap-icon-microphone-slash-fill></tap-icon-microphone-slash-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="microphone-spark"><tap-icon-microphone-spark></tap-icon-microphone-spark></IconPreview>
+		<IconPreview :select-icon=selectIcon title="microphone-spark-fill"><tap-icon-microphone-spark-fill></tap-icon-microphone-spark-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="minus"><tap-icon-minus></tap-icon-minus></IconPreview>
+		<IconPreview :select-icon=selectIcon title="minus-fill"><tap-icon-minus-fill></tap-icon-minus-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="moon"><tap-icon-moon></tap-icon-moon></IconPreview>
+		<IconPreview :select-icon=selectIcon title="moon-fill"><tap-icon-moon-fill></tap-icon-moon-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="more-horizontal"><tap-icon-more-horizontal></tap-icon-more-horizontal></IconPreview>
+		<IconPreview :select-icon=selectIcon title="more-horizontal-fill"><tap-icon-more-horizontal-fill></tap-icon-more-horizontal-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="more-vertical"><tap-icon-more-vertical></tap-icon-more-vertical></IconPreview>
+		<IconPreview :select-icon=selectIcon title="more-vertical-fill"><tap-icon-more-vertical-fill></tap-icon-more-vertical-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="motorcycle"><tap-icon-motorcycle></tap-icon-motorcycle></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pause"><tap-icon-pause></tap-icon-pause></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pencil-line"><tap-icon-pencil-line></tap-icon-pencil-line></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pencil-line-fill"><tap-icon-pencil-line-fill></tap-icon-pencil-line-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person"><tap-icon-person></tap-icon-person></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-1"><tap-icon-person-1></tap-icon-person-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-fill"><tap-icon-person-fill></tap-icon-person-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-fill-1"><tap-icon-person-fill-1></tap-icon-person-fill-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-in-wheelchair"><tap-icon-person-in-wheelchair></tap-icon-person-in-wheelchair></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-minus"><tap-icon-person-minus></tap-icon-person-minus></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-minus-fill"><tap-icon-person-minus-fill></tap-icon-person-minus-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-plus"><tap-icon-person-plus></tap-icon-person-plus></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-plus-fill"><tap-icon-person-plus-fill></tap-icon-person-plus-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-two"><tap-icon-person-two></tap-icon-person-two></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-two-fill"><tap-icon-person-two-fill></tap-icon-person-two-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-wave"><tap-icon-person-wave></tap-icon-person-wave></IconPreview>
+		<IconPreview :select-icon=selectIcon title="person-wave-fill"><tap-icon-person-wave-fill></tap-icon-person-wave-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="phone"><tap-icon-phone></tap-icon-phone></IconPreview>
+		<IconPreview :select-icon=selectIcon title="phone-fill"><tap-icon-phone-fill></tap-icon-phone-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="phone-vibrate"><tap-icon-phone-vibrate></tap-icon-phone-vibrate></IconPreview>
+		<IconPreview :select-icon=selectIcon title="phone-vibrate-fill"><tap-icon-phone-vibrate-fill></tap-icon-phone-vibrate-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pin"><tap-icon-pin></tap-icon-pin></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pin-cross"><tap-icon-pin-cross></tap-icon-pin-cross></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pin-cross-fill"><tap-icon-pin-cross-fill></tap-icon-pin-cross-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pin-fill"><tap-icon-pin-fill></tap-icon-pin-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pin-on-map"><tap-icon-pin-on-map></tap-icon-pin-on-map></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pin-on-map-fill"><tap-icon-pin-on-map-fill></tap-icon-pin-on-map-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pin-wave"><tap-icon-pin-wave></tap-icon-pin-wave></IconPreview>
+		<IconPreview :select-icon=selectIcon title="pin-wave-fill"><tap-icon-pin-wave-fill></tap-icon-pin-wave-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="plane"><tap-icon-plane></tap-icon-plane></IconPreview>
+		<IconPreview :select-icon=selectIcon title="plane-fill"><tap-icon-plane-fill></tap-icon-plane-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="planet-earth"><tap-icon-planet-earth></tap-icon-planet-earth></IconPreview>
+		<IconPreview :select-icon=selectIcon title="play"><tap-icon-play></tap-icon-play></IconPreview>
+		<IconPreview :select-icon=selectIcon title="plus"><tap-icon-plus></tap-icon-plus></IconPreview>
+		<IconPreview :select-icon=selectIcon title="plus-fill"><tap-icon-plus-fill></tap-icon-plus-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="point-three-connected-trianglepath-line"><tap-icon-point-three-connected-trianglepath-line></tap-icon-point-three-connected-trianglepath-line></IconPreview>
+		<IconPreview :select-icon=selectIcon title="point-three-connected-trianglepath-line-fill"><tap-icon-point-three-connected-trianglepath-line-fill></tap-icon-point-three-connected-trianglepath-line-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="power"><tap-icon-power></tap-icon-power></IconPreview>
+		<IconPreview :select-icon=selectIcon title="question"><tap-icon-question></tap-icon-question></IconPreview>
+		<IconPreview :select-icon=selectIcon title="record"><tap-icon-record></tap-icon-record></IconPreview>
+		<IconPreview :select-icon=selectIcon title="rectangle-person-text"><tap-icon-rectangle-person-text></tap-icon-rectangle-person-text></IconPreview>
+		<IconPreview :select-icon=selectIcon title="rectangle-person-text-with-badge"><tap-icon-rectangle-person-text-with-badge></tap-icon-rectangle-person-text-with-badge></IconPreview>
+		<IconPreview :select-icon=selectIcon title="send-chat"><tap-icon-send-chat></tap-icon-send-chat></IconPreview>
+		<IconPreview :select-icon=selectIcon title="send-chat-fill"><tap-icon-send-chat-fill></tap-icon-send-chat-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="share"><tap-icon-share></tap-icon-share></IconPreview>
+		<IconPreview :select-icon=selectIcon title="share-fill"><tap-icon-share-fill></tap-icon-share-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="shield-tick"><tap-icon-shield-tick></tap-icon-shield-tick></IconPreview>
+		<IconPreview :select-icon=selectIcon title="shield-tick-fill"><tap-icon-shield-tick-fill></tap-icon-shield-tick-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="shopping-bag"><tap-icon-shopping-bag></tap-icon-shopping-bag></IconPreview>
+		<IconPreview :select-icon=selectIcon title="shopping-bag-fill"><tap-icon-shopping-bag-fill></tap-icon-shopping-bag-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="shopping-cart"><tap-icon-shopping-cart></tap-icon-shopping-cart></IconPreview>
+		<IconPreview :select-icon=selectIcon title="shopping-cart-fill"><tap-icon-shopping-cart-fill></tap-icon-shopping-cart-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="single-check"><tap-icon-single-check></tap-icon-single-check></IconPreview>
+		<IconPreview :select-icon=selectIcon title="siren"><tap-icon-siren></tap-icon-siren></IconPreview>
+		<IconPreview :select-icon=selectIcon title="siren-fill"><tap-icon-siren-fill></tap-icon-siren-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="slider-horizontal"><tap-icon-slider-horizontal></tap-icon-slider-horizontal></IconPreview>
+		<IconPreview :select-icon=selectIcon title="slider-horizontal-fill"><tap-icon-slider-horizontal-fill></tap-icon-slider-horizontal-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="spark"><tap-icon-spark></tap-icon-spark></IconPreview>
+		<IconPreview :select-icon=selectIcon title="spark-fill"><tap-icon-spark-fill></tap-icon-spark-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="spark-small"><tap-icon-spark-small></tap-icon-spark-small></IconPreview>
+		<IconPreview :select-icon=selectIcon title="spark-small-fill"><tap-icon-spark-small-fill></tap-icon-spark-small-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="spark-three"><tap-icon-spark-three></tap-icon-spark-three></IconPreview>
+		<IconPreview :select-icon=selectIcon title="spark-three-fill"><tap-icon-spark-three-fill></tap-icon-spark-three-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="speaker-cross"><tap-icon-speaker-cross></tap-icon-speaker-cross></IconPreview>
+		<IconPreview :select-icon=selectIcon title="speaker-exclamation"><tap-icon-speaker-exclamation></tap-icon-speaker-exclamation></IconPreview>
+		<IconPreview :select-icon=selectIcon title="speaker-wave"><tap-icon-speaker-wave></tap-icon-speaker-wave></IconPreview>
+		<IconPreview :select-icon=selectIcon title="spiral-dot-two"><tap-icon-spiral-dot-two></tap-icon-spiral-dot-two></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-above-squares"><tap-icon-square-above-squares></tap-icon-square-above-squares></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill"><tap-icon-square-fill></tap-icon-square-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-1"><tap-icon-square-fill-1></tap-icon-square-fill-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-2"><tap-icon-square-fill-2></tap-icon-square-fill-2></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-3"><tap-icon-square-fill-3></tap-icon-square-fill-3></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-4"><tap-icon-square-fill-4></tap-icon-square-fill-4></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-5"><tap-icon-square-fill-5></tap-icon-square-fill-5></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-6"><tap-icon-square-fill-6></tap-icon-square-fill-6></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-7"><tap-icon-square-fill-7></tap-icon-square-fill-7></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-8"><tap-icon-square-fill-8></tap-icon-square-fill-8></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-fill-9"><tap-icon-square-fill-9></tap-icon-square-fill-9></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-four"><tap-icon-square-four></tap-icon-square-four></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-four-fill"><tap-icon-square-four-fill></tap-icon-square-four-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-grid"><tap-icon-square-grid></tap-icon-square-grid></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-grid-fill"><tap-icon-square-grid-fill></tap-icon-square-grid-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-grid-rounded"><tap-icon-square-grid-rounded></tap-icon-square-grid-rounded></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-grid-rounded-fill"><tap-icon-square-grid-rounded-fill></tap-icon-square-grid-rounded-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-more"><tap-icon-square-more></tap-icon-square-more></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-more-fill"><tap-icon-square-more-fill></tap-icon-square-more-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-1"><tap-icon-square-outline-1></tap-icon-square-outline-1></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-2"><tap-icon-square-outline-2></tap-icon-square-outline-2></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-3"><tap-icon-square-outline-3></tap-icon-square-outline-3></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-4"><tap-icon-square-outline-4></tap-icon-square-outline-4></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-5"><tap-icon-square-outline-5></tap-icon-square-outline-5></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-6"><tap-icon-square-outline-6></tap-icon-square-outline-6></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-7"><tap-icon-square-outline-7></tap-icon-square-outline-7></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-8"><tap-icon-square-outline-8></tap-icon-square-outline-8></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-outline-9"><tap-icon-square-outline-9></tap-icon-square-outline-9></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-person"><tap-icon-square-person></tap-icon-square-person></IconPreview>
+		<IconPreview :select-icon=selectIcon title="square-person-fill"><tap-icon-square-person-fill></tap-icon-square-person-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="star"><tap-icon-star></tap-icon-star></IconPreview>
+		<IconPreview :select-icon=selectIcon title="star-fill"><tap-icon-star-fill></tap-icon-star-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="steer"><tap-icon-steer></tap-icon-steer></IconPreview>
+		<IconPreview :select-icon=selectIcon title="steer-fill"><tap-icon-steer-fill></tap-icon-steer-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="sticky-note"><tap-icon-sticky-note></tap-icon-sticky-note></IconPreview>
+		<IconPreview :select-icon=selectIcon title="sticky-note-fill"><tap-icon-sticky-note-fill></tap-icon-sticky-note-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="store"><tap-icon-store></tap-icon-store></IconPreview>
+		<IconPreview :select-icon=selectIcon title="store-fill"><tap-icon-store-fill></tap-icon-store-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="sun"><tap-icon-sun></tap-icon-sun></IconPreview>
+		<IconPreview :select-icon=selectIcon title="sun-fill"><tap-icon-sun-fill></tap-icon-sun-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="tapsi-logo"><tap-icon-tapsi-logo></tap-icon-tapsi-logo></IconPreview>
+		<IconPreview :select-icon=selectIcon title="target"><tap-icon-target></tap-icon-target></IconPreview>
+		<IconPreview :select-icon=selectIcon title="target-fill"><tap-icon-target-fill></tap-icon-target-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="target-slash"><tap-icon-target-slash></tap-icon-target-slash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="telephone"><tap-icon-telephone></tap-icon-telephone></IconPreview>
+		<IconPreview :select-icon=selectIcon title="telephone-fill"><tap-icon-telephone-fill></tap-icon-telephone-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="thumb-down"><tap-icon-thumb-down></tap-icon-thumb-down></IconPreview>
+		<IconPreview :select-icon=selectIcon title="thumb-down-fill"><tap-icon-thumb-down-fill></tap-icon-thumb-down-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="thumb-up"><tap-icon-thumb-up></tap-icon-thumb-up></IconPreview>
+		<IconPreview :select-icon=selectIcon title="thumb-up-fill"><tap-icon-thumb-up-fill></tap-icon-thumb-up-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="timer"><tap-icon-timer></tap-icon-timer></IconPreview>
+		<IconPreview :select-icon=selectIcon title="timer-fill"><tap-icon-timer-fill></tap-icon-timer-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="traffic-light"><tap-icon-traffic-light></tap-icon-traffic-light></IconPreview>
+		<IconPreview :select-icon=selectIcon title="traffic-light-fill"><tap-icon-traffic-light-fill></tap-icon-traffic-light-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="trash"><tap-icon-trash></tap-icon-trash></IconPreview>
+		<IconPreview :select-icon=selectIcon title="trash-fill"><tap-icon-trash-fill></tap-icon-trash-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="triangle-exclamation"><tap-icon-triangle-exclamation></tap-icon-triangle-exclamation></IconPreview>
+		<IconPreview :select-icon=selectIcon title="triangle-exclamation-fill"><tap-icon-triangle-exclamation-fill></tap-icon-triangle-exclamation-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="ufo"><tap-icon-ufo></tap-icon-ufo></IconPreview>
+		<IconPreview :select-icon=selectIcon title="ufo-fill"><tap-icon-ufo-fill></tap-icon-ufo-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="video-two"><tap-icon-video-two></tap-icon-video-two></IconPreview>
+		<IconPreview :select-icon=selectIcon title="video-two-fill"><tap-icon-video-two-fill></tap-icon-video-two-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="wallet"><tap-icon-wallet></tap-icon-wallet></IconPreview>
+		<IconPreview :select-icon=selectIcon title="wallet-fill"><tap-icon-wallet-fill></tap-icon-wallet-fill></IconPreview>
+		<IconPreview :select-icon=selectIcon title="wallet-swap"><tap-icon-wallet-swap></tap-icon-wallet-swap></IconPreview>
+		<IconPreview :select-icon=selectIcon title="wifi"><tap-icon-wifi></tap-icon-wifi></IconPreview>
+		<IconPreview :select-icon=selectIcon title="wifi-slash"><tap-icon-wifi-slash></tap-icon-wifi-slash></IconPreview>
 
   </div>
 </template>
@@ -352,6 +352,9 @@
 <script setup>
 import '../../src/lit/icons';
 import IconPreview from './IconPreview.vue';
+defineProps({
+  selectIcon: String,
+})
 </script>
 
 <style scoped>

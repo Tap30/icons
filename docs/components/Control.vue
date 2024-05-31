@@ -8,17 +8,14 @@
         <div class="col">
 
           <div class="row">
-            <b>Name:</b>
             <b>{{ selectedIcon }}</b>
           </div>
 
           <div class="row">
-            <b>Categories:</b>
-            <div><span v-for="category in [1, 2, 3]" class="VPBadge tip">category {{ category }}</span></div>
+            <div><span v-for="category in configFile[selectedIcon]?.categories" class="VPBadge tip">{{ category }}</span></div>
           </div>
 
           <div class="row">
-            <b>Controls:</b>
             <form>
               <label for="width-input">width</label>
               <input type="range" min="1" max="140" :value=width class="slider" id="width-input"
@@ -39,7 +36,8 @@
 
         <div class="icon-preview-container">
           <div class="icon-preview" :style="`height: ${height}px; width: ${width}px`">
-            <tap-icon-map :width=width :height=height :color=color></tap-icon-map>
+            <tap-icon :width=width :height=height :color=color id="icon" v-html=configFile[selectedIcon]?.svgContent >
+            </tap-icon>
           </div>
         </div>
       </div>
@@ -88,7 +86,7 @@
               <span class="lang">js</span>
               <pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span
                 style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span
-                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Map</span><span
+                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">{{ toPascalCase(selectedIcon) }}</span><span
                 style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> width</span><span
                 style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span
                 style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">{</span><span
@@ -109,7 +107,7 @@
               <span class="lang">js</span>
               <pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span
                 style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span
-                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">tap-icon-map</span><span
+                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">tap-icon-{{selectedIcon}}</span><span
                 style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> width</span><span
                 style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span
                 style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">"{{ width }}"</span><span
@@ -134,7 +132,11 @@
 </template>
 
 <script setup>
-import '../../src/lit/icons'
+import '../../src/lit/icons';
+import '../../src/lit/icon';
+import configFile from "../../dist/config.json";
+
+
 import {ref} from "vue";
 
 const {selectedIcon} = defineProps({
