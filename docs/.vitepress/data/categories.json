@@ -66,5 +66,13 @@
   {
     "items": ["number", "digit"],
     "name": "number"
+  },
+  {
+    "items": ["fill", "filled"],
+    "name": "fill"
+  },
+  {
+    "items": ["/", "slash"],
+    "name": "slash"
   }
 ]

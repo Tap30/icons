@@ -1,4 +1,4 @@
 {
   "name": "keyboard-fill",
-  "categories": []
+  "categories": ["device", "fill"]
 }
