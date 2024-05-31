@@ -1,7 +1,4 @@
 {
   "name": "coupon-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance"]
 }

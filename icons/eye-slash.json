@@ -1,7 +1,4 @@
 {
   "name": "eye-slash",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "building-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["building"]
 }

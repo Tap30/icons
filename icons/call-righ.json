@@ -1,7 +1,4 @@
 {
   "name": "call-righ",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

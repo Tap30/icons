@@ -1,7 +1,4 @@
 {
   "name": "default-3",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["number"]
 }

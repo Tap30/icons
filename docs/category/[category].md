@@ -10,6 +10,8 @@ const { page } = useData();
 
 </script>
 
+<pre>{{page}}</pre>
+
 <Icons  />
 
 <!-- @content -->

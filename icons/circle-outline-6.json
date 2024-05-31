@@ -1,7 +1,4 @@
 {
   "name": "circle-outline-6",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["number"]
 }

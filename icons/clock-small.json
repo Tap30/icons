@@ -1,7 +1,4 @@
 {
   "name": "clock-small",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["time"]
 }

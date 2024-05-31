@@ -1,6 +1,6 @@
 <template>
   <Control :selected-icon=selectedIcon :select-icon=selectIcon />
-  <SearchField />
+<!--  <SearchField />-->
   <IconGrid :select-icon=selectIcon />
 </template>
 

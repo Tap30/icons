@@ -1,7 +1,4 @@
 {
   "name": "car-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["car"]
 }

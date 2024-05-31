@@ -1,7 +1,4 @@
 {
   "name": "car-slash",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["car"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "cross-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["signs", "interface"]
 }

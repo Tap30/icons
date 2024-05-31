@@ -1,7 +1,4 @@
 {
   "name": "call-left-slash",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

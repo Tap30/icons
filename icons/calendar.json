@@ -1,7 +1,4 @@
 {
   "name": "calendar",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["time"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "wifi",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

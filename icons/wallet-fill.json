@@ -1,7 +1,4 @@
 {
   "name": "wallet-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance"]
 }

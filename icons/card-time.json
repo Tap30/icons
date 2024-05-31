@@ -1,7 +1,4 @@
 {
   "name": "card-time",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance", "time"]
 }

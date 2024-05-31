@@ -1,7 +1,4 @@
 {
   "name": "double-check",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

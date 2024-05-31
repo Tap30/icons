@@ -1,7 +1,4 @@
 {
   "name": "coupon-puched",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance"]
 }

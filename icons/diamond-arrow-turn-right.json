@@ -1,7 +1,4 @@
 {
   "name": "diamond-arrow-turn-right",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["navigation", "arrow"]
 }

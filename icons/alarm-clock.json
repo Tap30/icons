@@ -1,7 +1,4 @@
 {
   "name": "alarm-clock",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["time"]
 }

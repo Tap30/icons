@@ -1,7 +1,4 @@
 {
   "name": "home-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["building"]
 }

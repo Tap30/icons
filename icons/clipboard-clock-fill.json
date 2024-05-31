@@ -1,7 +1,4 @@
 {
   "name": "clipboard-clock-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface", "time"]
 }

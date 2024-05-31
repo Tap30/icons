@@ -1,7 +1,4 @@
 {
   "name": "card",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance"]
 }

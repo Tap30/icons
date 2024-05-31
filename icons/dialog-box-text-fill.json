@@ -1,7 +1,4 @@
 {
   "name": "dialog-box-text-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

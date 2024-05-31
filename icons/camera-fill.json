@@ -1,7 +1,4 @@
 {
   "name": "camera-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["media", "device"]
 }

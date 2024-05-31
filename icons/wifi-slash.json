@@ -1,7 +1,4 @@
 {
   "name": "wifi-slash",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

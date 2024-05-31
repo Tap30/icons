@@ -1,7 +1,4 @@
 {
   "name": "circle-fill-8",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["number"]
 }

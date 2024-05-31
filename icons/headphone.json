@@ -1,7 +1,4 @@
 {
   "name": "headphone",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

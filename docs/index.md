@@ -3,3 +3,4 @@ import Icons from './components/Icons.vue';
 </script>
 
 <Icons />
+

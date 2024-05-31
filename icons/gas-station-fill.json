@@ -1,7 +1,4 @@
 {
   "name": "gas-station-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["navigation"]
 }

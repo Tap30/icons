@@ -1,7 +1,4 @@
 {
   "name": "box-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

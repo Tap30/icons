@@ -45,6 +45,25 @@ pnpm install @tapsi-oss/icons/${name}
 
 :::
 
+
+
+---
+
+::: code-group
+
+\`\`\`js [React]
+<Map width={69} height={69} color="#696969" />
+\`\`\`
+
+\`\`\`js [Lit]
+<tap-icon-map width="69" height="69" color="#696969"></tap-icon-map>
+\`\`\`
+
+:::
+
+---
+
+
 `
 }
 

@@ -1,7 +1,4 @@
 {
   "name": "circle-exclamation",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["signs"]
 }

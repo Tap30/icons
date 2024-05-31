@@ -1,7 +1,4 @@
 {
   "name": "circle-person-fill-1",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["person"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "hourglass",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["time"]
 }

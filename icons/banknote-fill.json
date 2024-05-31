@@ -1,7 +1,4 @@
 {
   "name": "banknote-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance"]
 }

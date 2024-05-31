@@ -1,7 +1,4 @@
 {
   "name": "briefcase",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

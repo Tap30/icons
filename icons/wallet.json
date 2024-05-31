@@ -1,7 +1,4 @@
 {
   "name": "wallet",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance"]
 }

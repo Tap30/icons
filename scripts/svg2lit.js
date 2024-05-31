@@ -5,13 +5,15 @@ const inputDir = "icons";
 const outputDir = "src/lit/icons";
 const iconGridDocsDir = "docs/components";
 
+const config = {}
+
 let rootIndexContent = [];
 let iconsStoriesTemplates = [];
 let iconGridDocsTemplate = [];
 
 // Ensure output directory exists
 if (!fs.existsSync(outputDir)) {
-  fs.mkdirSync(outputDir, { recursive: true });
+  fs.mkdirSync(outputDir, {recursive: true});
 }
 
 function toPascalCase(name) {
@@ -49,7 +51,7 @@ function generateFiles(svgFilename, svgContent) {
   const pascalCaseName = toPascalCase(baseName);
   const outputFolder = path.join(outputDir, baseName);
   if (!fs.existsSync(outputFolder)) {
-    fs.mkdirSync(outputFolder, { recursive: true });
+    fs.mkdirSync(outputFolder, {recursive: true});
   }
 
   // Generate index.ts
@@ -105,13 +107,25 @@ fs.readdir(inputDir, (err, files) => {
     return;
   }
 
+  const categoriesContent = JSON.parse(fs.readFileSync('docs/.vitepress/data/categories.json', "utf8").replaceAll('\n', '')).reduce((a, b) => ({
+    ...a,
+    [b.name]: b.items
+  }));
 
   files.forEach((file) => {
+    const id = file.split(".")?.[0];
     if (file.endsWith(".svg")) {
-      const svgContent = fs.readFileSync(path.join(inputDir, file), "utf8");
+      const svgContent = fs.readFileSync(path.join(inputDir, file), "utf8").replaceAll('\n', '');
+      config[id] = {...config[id], svgContent, id}
       generateFiles(file, svgContent);
+    } else if (file.endsWith(".json")) {
+      const jsonContent = JSON.parse(fs.readFileSync(path.join(inputDir, file), "utf8").replaceAll('\n', ''));
+      if (jsonContent.categories?.length > 0) {
+        config[id] = {...config[id], categories: jsonContent.categories.reduce((a, b) => [...a, ...(categoriesContent[b] || [])], [])}
+      }
     }
   });
+console.log('🐕 sag config', config); // TODO: REMOVE ME ⚠️
 
   // After all files have been processed:
   rootIndexContent.sort();
@@ -187,11 +201,11 @@ IconSet.args = { height: 24, width: 24, color: 'black' };
   let iconGridDocsContent = `<template>
   <div class="icon-grid">
 `
-    iconGridDocsTemplate.forEach((line) => {
-      iconGridDocsContent += `\t\t${line}\n`
-    })
+  iconGridDocsTemplate.forEach((line) => {
+    iconGridDocsContent += `\t\t${line}\n`
+  })
 
-    iconGridDocsContent += `
+  iconGridDocsContent += `
   </div>
 </template>
 

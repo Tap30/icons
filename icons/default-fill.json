@@ -1,7 +1,4 @@
 {
   "name": "default-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

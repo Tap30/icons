@@ -1,7 +1,4 @@
 {
   "name": "camera",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["media", "device"]
 }

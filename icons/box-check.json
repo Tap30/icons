@@ -1,7 +1,4 @@
 {
   "name": "box-check",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

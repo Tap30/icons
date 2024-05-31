@@ -1,7 +1,4 @@
 {
   "name": "heart",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

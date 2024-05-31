@@ -1,7 +1,4 @@
 {
   "name": "circle-information",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["signs"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "face-sad-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

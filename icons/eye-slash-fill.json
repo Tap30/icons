@@ -1,7 +1,4 @@
 {
   "name": "eye-slash-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

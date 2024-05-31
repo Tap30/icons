@@ -1,7 +1,4 @@
 {
   "name": "cross",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["signs", "interface"]
 }

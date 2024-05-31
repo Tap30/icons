@@ -2,49 +2,132 @@
   <div v-if="selectedIcon !== null">
     <div class="shadow" @click="() => selectIcon(null)"></div>
     <div class="control">
-      <header>
-        <pre>{{ selectedIcon }}</pre>
-      </header>
+
 
       <div class="row">
-        <form>
-          <label for="width-input">width</label>
-          <input type="range" min="1" max="200" :value=width class="slider" id="width-input" @input="(e) => { width = e.target.value }">
-        </form>
+        <div class="col">
 
-        <form>
-          <label for="height-input">height</label>
-          <input type="range" min="1" max="200" :value=height class="slider" id="height-input" @input="(e) => { height = e.target.value }">
-        </form>
+          <div class="row">
+            <b>Name:</b>
+            <b>{{ selectedIcon }}</b>
+          </div>
 
-        <form>
-          <label for="color-input">color</label>
-          <input type="color" :value=color class="slider" id="color-input" @input="(e) => { color = e.target.value }">
-        </form>
-      </div>
+          <div class="row">
+            <b>Categories:</b>
+            <div><span v-for="category in [1, 2, 3]" class="VPBadge tip">category {{ category }}</span></div>
+          </div>
 
-      <div class="icon-preview-container">
-        <div class="icon-preview" :style="`height: ${height}px; width: ${width}px`">
-          <tap-icon-map :width=width :height=height :color=color ></tap-icon-map>
+          <div class="row">
+            <b>Controls:</b>
+            <form>
+              <label for="width-input">width</label>
+              <input type="range" min="1" max="140" :value=width class="slider" id="width-input"
+                     @input="(e) => { width = e.target.value }">
+            </form>
+            <form>
+              <label for="height-input">height</label>
+              <input type="range" min="1" max="140" :value=height class="slider" id="height-input"
+                     @input="(e) => { height = e.target.value }">
+            </form>
+            <form>
+              <label for="color-input">color</label>
+              <input type="color" :value=color class="slider" id="color-input" @input="(e) => { color = e.target.value }">
+            </form>
+          </div>
+
+        </div>
+
+        <div class="icon-preview-container">
+          <div class="icon-preview" :style="`height: ${height}px; width: ${width}px`">
+            <tap-icon-map :width=width :height=height :color=color></tap-icon-map>
+          </div>
         </div>
       </div>
 
-      <div class="row">
-        <button @click="() => copySvg()">
-          <tap-icon-copy></tap-icon-copy>
-          Copy SVG
-        </button>
+      <hr />
 
-        <button @click="() => copyReact()">
-          <tap-icon-copy></tap-icon-copy>
-          Copy React Import
-        </button>
+      <div>
+        <h6>Importing Component</h6>
 
-        <button @click="() => copyLit()">
-          <tap-icon-copy></tap-icon-copy>
-          Copy Lit Import
-        </button>
+        <div class="vp-code-group vp-adaptive-theme">
+          <div class="tabs"><input type="radio" name="group-ALkwy" id="tab-2v_AT7J" checked="checked"><label
+            for="tab-2v_AT7J">React</label><input type="radio" name="group-ALkwy" id="tab-vTu5zWC"><label
+            for="tab-vTu5zWC">Lit</label></div>
+          <div class="blocks">
+            <div class="language-js vp-adaptive-theme active">
+              <button title="Copy Code" class="copy"></button>
+              <span class="lang">js</span>
+              <pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> {{ toPascalCase(selectedIcon) }} </span><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">from</span><span
+                style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> '@tapsi-oss/icons/react/{{
+                  toPascalCase(selectedIcon)
+                }}'</span><span style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span></code></pre>
+            </div>
+            <div class="language-js vp-adaptive-theme">
+              <button title="Copy Code" class="copy"></button>
+              <span class="lang">js</span>
+              <pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">import</span><span
+                style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;"> '@tapsi-oss/icons/lit'</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">;</span></span></code></pre>
+            </div>
+          </div>
+        </div>
+
+        <h6>Usage</h6>
+
+        <div class="vp-code-group vp-adaptive-theme">
+          <div class="tabs"><input type="radio" name="group-DJNBv" id="tab-gdDSRUM" checked="checked"><label
+            for="tab-gdDSRUM">React</label><input type="radio" name="group-DJNBv" id="tab-zruU2R9"><label
+            for="tab-zruU2R9">Lit</label></div>
+          <div class="blocks">
+            <div class="language-js vp-adaptive-theme active">
+              <button title="Copy Code" class="copy"></button>
+              <span class="lang">js</span>
+              <pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span
+                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">Map</span><span
+                style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> width</span><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">{</span><span
+                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">{{ width }}</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">} </span><span
+                style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">height</span><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">{</span><span
+                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">{{ height }}</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">} </span><span
+                style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;">color</span><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span
+                style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">"{{ color }}"</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;"> /&gt;</span></span></code></pre>
+            </div>
+            <div class="language-js vp-adaptive-theme">
+              <button title="Copy Code" class="copy"></button>
+              <span class="lang">js</span>
+              <pre class="shiki shiki-themes github-light github-dark vp-code"><code><span class="line"><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&lt;</span><span
+                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">tap-icon-map</span><span
+                style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> width</span><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span
+                style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">"{{ width }}"</span><span
+                style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> height</span><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span
+                style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">"{{ height }}"</span><span
+                style="--shiki-light:#6F42C1;--shiki-dark:#B392F0;"> color</span><span
+                style="--shiki-light:#D73A49;--shiki-dark:#F97583;">=</span><span
+                style="--shiki-light:#032F62;--shiki-dark:#9ECBFF;">"{{ color }}"</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;&lt;/</span><span
+                style="--shiki-light:#005CC5;--shiki-dark:#79B8FF;">tap-icon-map</span><span
+                style="--shiki-light:#24292E;--shiki-dark:#E1E4E8;">&gt;</span></span></code></pre>
+            </div>
+          </div>
+        </div>
+
       </div>
+
 
     </div>
   </div>
@@ -54,13 +137,13 @@
 import '../../src/lit/icons'
 import {ref} from "vue";
 
-const { selectedIcon } = defineProps({
+const {selectedIcon} = defineProps({
   selectedIcon: String,
   selectIcon: String,
 })
 
-const width = ref(150);
-const height = ref(150);
+const width = ref(120);
+const height = ref(120);
 const color = ref('#5672cd');
 
 function toPascalCase(name) {
@@ -70,42 +153,36 @@ function toPascalCase(name) {
     .join("");
 }
 
-const copy = (string) => {
-  navigator.clipboard.writeText(string);
-};
-
-const copySvg = () => {
-  copy(`<tap-icon-${selectedIcon} width="${width.value}" height="${height.value}" color="${color.value}"></tap-icon-${selectedIcon}>`)
-}
-
-const copyLit = () => {
-  copy(`<tap-icon-${selectedIcon} width="${width.value}" height="${height.value}" color="${color.value}"></tap-icon-${selectedIcon}>`)
-}
-
-const copyReact = () => {
-  copy(`<${toPascalCase(selectedIcon)} width="${width.value}" height="${height.value}" color="${color.value}" />`)
-}
 
 </script>
 
 <style scoped>
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 16px;
+}
+
 .row {
   gap: 16px;
   display: flex;
   align-items: center;
 }
+
 .control {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  min-width: 60vw;
+  min-width: 45vw;
   background-color: var(--vp-c-bg);
   z-index: 40;
   animation: show-sidebar 0.3s;
   padding: 16px;
   border-radius: 8px;
 }
+
 @keyframes show-sidebar {
   from {
     opacity: 0;
@@ -114,11 +191,7 @@ const copyReact = () => {
     opacity: 1;
   }
 }
-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
+
 button {
   display: flex;
   align-items: center;
@@ -126,6 +199,7 @@ button {
   border: 1px solid var(--vp-c-divider);
   padding: 8px;
 }
+
 .shadow {
   position: fixed;
   background: var(--vp-backdrop-bg-color);
@@ -146,28 +220,28 @@ form {
   gap: 8px;
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
-  margin: 16px 0;
   background: var(--vp-c-bg);
 }
 
 form:hover {
   border-color: var(--vp-c-brand-1);
 }
+
 .icon-preview-container {
-  height: 200px;
-  width: 200px;
+  height: 140px;
+  width: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .icon-preview {
   transition: all 0.1s;
   border-radius: 8px;
   border: 1px solid var(--vp-c-divider);
-  background-image:
-    linear-gradient(45deg, var(--vp-c-divider) 25%, transparent 25%,
-    transparent 75%, var(--vp-c-divider) 75%, var(--vp-c-divider)),
-    linear-gradient(45deg, var(--vp-c-divider) 25%, transparent 25%,
+  background-image: linear-gradient(45deg, var(--vp-c-divider) 25%, transparent 25%,
+  transparent 75%, var(--vp-c-divider) 75%, var(--vp-c-divider)),
+  linear-gradient(45deg, var(--vp-c-divider) 25%, transparent 25%,
     transparent 75%, var(--vp-c-divider) 75%, var(--vp-c-divider));
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
@@ -176,11 +250,9 @@ form:hover {
   justify-content: center;
   position: relative;
 }
+
 .icon-preview:hover {
   border-color: var(--vp-c-brand-1);
-}
-.primary {
-  color: var(--vp-c-brand-1);
 }
 
 </style>

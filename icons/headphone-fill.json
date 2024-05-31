@@ -1,7 +1,4 @@
 {
   "name": "headphone-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

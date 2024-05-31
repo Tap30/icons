@@ -1,7 +1,4 @@
 {
   "name": "calendar-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["time"]
 }

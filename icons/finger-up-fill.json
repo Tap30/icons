@@ -1,7 +1,4 @@
 {
   "name": "finger-up-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["cursor"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "flag-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

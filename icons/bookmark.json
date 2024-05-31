@@ -1,7 +1,4 @@
 {
   "name": "bookmark",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

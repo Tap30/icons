@@ -1,7 +1,4 @@
 {
   "name": "car",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["car"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "fire",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

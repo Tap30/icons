@@ -1,7 +1,4 @@
 {
   "name": "finger-touch",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["cursor"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "circle-thunder-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

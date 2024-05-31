@@ -1,7 +1,4 @@
 {
   "name": "camera-plus",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["media", "device"]
 }

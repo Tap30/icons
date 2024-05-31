@@ -1,7 +1,4 @@
 {
   "name": "dialogbox-question",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

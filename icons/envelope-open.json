@@ -1,7 +1,4 @@
 {
   "name": "envelope-open",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

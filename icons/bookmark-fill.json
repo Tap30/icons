@@ -1,7 +1,4 @@
 {
   "name": "bookmark-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

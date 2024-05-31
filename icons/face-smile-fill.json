@@ -1,7 +1,4 @@
 {
   "name": "face-smile-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

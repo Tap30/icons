@@ -1,186 +1,70 @@
 [
   {
-    "name": "accessibility",
-    "title": "Accessibility"
+    "items": ["interface", "essential"],
+    "name": "interface"
   },
   {
-    "name": "account",
-    "title": "Accounts & access"
+    "items": ["arrows", "diagrams"],
+    "name": "arrow"
   },
   {
-    "name": "animals",
-    "title": "Animals"
+    "items": ["brand"],
+    "name": "brand"
   },
   {
-    "name": "arrows",
-    "title": "Arrows"
+    "items": ["building", "construction"],
+    "name": "building"
   },
   {
-    "name": "brands",
-    "title": "Brands"
+    "items": ["car", "service", "parts"],
+    "name": "car"
   },
   {
-    "name": "buildings",
-    "title": "Buildings"
+    "items": ["cursor", "select", "hand"],
+    "name": "cursor"
   },
   {
-    "name": "charts",
-    "title": "Charts"
+    "items": ["disabled", "disability", "accessibility"],
+    "name": "accessibility"
   },
   {
-    "name": "communication",
-    "title": "Communication"
+    "items": ["mobile", "devices", "telephone", "emails", "messages", "chat"],
+    "name": "device"
   },
   {
-    "name": "connectivity",
-    "title": "Connectivity"
+    "items": ["money", "payments", "finance"],
+    "name": "finance"
   },
   {
-    "name": "currency",
-    "title": "Currency"
+    "items": ["navigation", "maps"],
+    "name": "navigation"
   },
   {
-    "name": "cursors",
-    "title": "Cursors"
+    "items": ["photo", "video", "camera"],
+    "name": "media"
   },
   {
-    "name": "design",
-    "title": "Design"
+    "items": ["signs"],
+    "name": "signs"
   },
   {
-    "name": "development",
-    "title": "Coding & development"
+    "items": ["social", "medias", "rewards"],
+    "name": "social"
   },
   {
-    "name": "devices",
-    "title": "Devices"
+    "items": ["time", "history", "calendar"],
+    "name": "time"
   },
   {
-    "name": "emoji",
-    "title": "Emoji"
+    "items": ["transportation"],
+    "name": "transport"
   },
   {
-    "name": "files",
-    "title": "File icons"
+    "items": ["users", "person"],
+    "name": "person"
   },
   {
-    "name": "food-beverage",
-    "title": "Food & beverage"
-  },
-  {
-    "name": "furniture",
-    "title": "Furniture"
-  },
-  {
-    "name": "gaming",
-    "title": "Gaming"
-  },
-  {
-    "name": "home",
-    "title": "Home"
-  },
-  {
-    "name": "layout",
-    "title": "Layout"
-  },
-  {
-    "name": "mail",
-    "title": "Mail"
-  },
-  {
-    "name": "maps",
-    "title": "Maps"
-  },
-  {
-    "name": "maths",
-    "title": "Maths"
-  },
-  {
-    "name": "medical",
-    "title": "Medical"
-  },
-  {
-    "name": "money",
-    "title": "Money"
-  },
-  {
-    "name": "multimedia",
-    "title": "Multimedia"
-  },
-  {
-    "name": "nature",
-    "title": "Nature"
-  },
-  {
-    "name": "navigation",
-    "title": "Navigation"
-  },
-  {
-    "name": "notifications",
-    "title": "Notifications"
-  },
-  {
-    "name": "people",
-    "title": "People"
-  },
-  {
-    "name": "photography",
-    "title": "Photography"
-  },
-  {
-    "name": "science",
-    "title": "Science"
-  },
-  {
-    "name": "seasons",
-    "title": "Seasons"
-  },
-  {
-    "name": "security",
-    "title": "Security"
-  },
-  {
-    "name": "shapes",
-    "title": "Shapes"
-  },
-  {
-    "name": "shopping",
-    "title": "Shopping"
-  },
-  {
-    "name": "social",
-    "title": "Social"
-  },
-  {
-    "name": "sports",
-    "title": "Sports"
-  },
-  {
-    "name": "sustainability",
-    "title": "Sustainability"
-  },
-  {
-    "name": "text",
-    "title": "Text formatting"
-  },
-  {
-    "name": "time",
-    "title": "Time & calendar"
-  },
-  {
-    "name": "tools",
-    "title": "Tools"
-  },
-  {
-    "name": "transportation",
-    "title": "Transportation"
-  },
-  {
-    "name": "travel",
-    "title": "Travel"
-  },
-  {
-    "name": "weather",
-    "title": "Weather"
+    "items": ["number", "digit"],
+    "name": "number"
   }
 ]

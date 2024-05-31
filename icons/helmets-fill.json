@@ -1,7 +1,4 @@
 {
   "name": "helmets-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["transportation", "car"]
 }

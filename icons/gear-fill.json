@@ -1,7 +1,4 @@
 {
   "name": "gear-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "finger-swipe-vertical",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["cursor"]
 }

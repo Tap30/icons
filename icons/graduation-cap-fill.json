@@ -1,7 +1,4 @@
 {
   "name": "graduation-cap-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

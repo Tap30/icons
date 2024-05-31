@@ -1,7 +1,4 @@
 {
   "name": "dialog-box-text",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["device"]
 }

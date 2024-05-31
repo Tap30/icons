@@ -1,7 +1,4 @@
 {
   "name": "gear",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

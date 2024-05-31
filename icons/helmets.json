@@ -1,7 +1,4 @@
 {
   "name": "helmets",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["transportation", "car"]
 }

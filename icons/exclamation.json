@@ -1,7 +1,4 @@
 {
   "name": "exclamation",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["signs"]
 }

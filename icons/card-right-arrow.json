@@ -1,7 +1,4 @@
 {
   "name": "card-right-arrow",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance", "arrow"]
 }

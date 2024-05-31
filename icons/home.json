@@ -1,7 +1,4 @@
 {
   "name": "home",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["building"]
 }

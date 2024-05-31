@@ -1,7 +1,4 @@
 {
   "name": "flag",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "wallet-swap",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance"]
 }

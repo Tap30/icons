@@ -1,7 +1,4 @@
 {
   "name": "circle-check-small",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["signs"]
 }

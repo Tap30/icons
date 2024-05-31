@@ -1,7 +1,4 @@
 {
   "name": "hourglass-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["time"]
 }

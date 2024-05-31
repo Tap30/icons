@@ -1,7 +1,4 @@
 {
   "name": "clock-dashed",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["time"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "heart-broken-fill",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

@@ -1,7 +1,4 @@
 {
   "name": "image",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["media"]
 }

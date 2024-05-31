@@ -1,7 +1,4 @@
 {
   "name": "gift",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["social"]
 }

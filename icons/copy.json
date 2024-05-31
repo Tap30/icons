@@ -1,7 +1,4 @@
 {
   "name": "copy",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

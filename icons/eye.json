@@ -1,7 +1,4 @@
 {
   "name": "eye",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["interface"]
 }

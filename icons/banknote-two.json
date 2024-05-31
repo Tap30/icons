@@ -1,7 +1,4 @@
 {
   "name": "banknote-two",
-  "categories": [],
-  "tag": [
-    "test"
-  ]
+  "categories": ["finance"]
 }
