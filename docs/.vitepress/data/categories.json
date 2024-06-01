@@ -4,7 +4,7 @@
     "name": "interface"
   },
   {
-    "items": ["arrows", "diagrams"],
+    "items": ["arrow", "diagrams"],
     "name": "arrow"
   },
   {
@@ -16,7 +16,7 @@
     "name": "building"
   },
   {
-    "items": ["car", "service", "parts"],
+    "items": ["car", "service", "parts", "vehicle"],
     "name": "car"
   },
   {
@@ -28,7 +28,7 @@
     "name": "accessibility"
   },
   {
-    "items": ["mobile", "devices", "telephone", "emails", "messages", "chat"],
+    "items": ["mobile", "device", "telephone", "emails", "messages", "chat"],
     "name": "device"
   },
   {
@@ -40,7 +40,7 @@
     "name": "navigation"
   },
   {
-    "items": ["photo", "video", "camera"],
+    "items": ["photo", "video", "camera", "media"],
     "name": "media"
   },
   {
@@ -56,7 +56,7 @@
     "name": "time"
   },
   {
-    "items": ["transportation"],
+    "items": ["transportation", "transport"],
     "name": "transport"
   },
   {
@@ -70,6 +70,10 @@
   {
     "items": ["fill", "filled"],
     "name": "fill"
+  },
+  {
+    "items": ["outlined"],
+    "name": "outlined"
   },
   {
     "items": ["/", "slash"],

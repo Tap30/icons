@@ -2,17 +2,25 @@
   <div class="control">
     <form class="color-picker">
       <label title="Search" id="search-label" for="search-input"><span><tap-icon-magnifier width="20" height="20"></tap-icon-magnifier></span></label>
-      <input placeholder="Search..." id="search-input" aria-labelledby="search-label" class="search-input">
+      <input
+        placeholder="Search..."
+        id="search-input"
+        aria-labelledby="search-label"
+        class="search-input"
+        :value=search
+        @input="(e) => setSearch(e.target.value)"
+      >
     </form>
-<!--    <form class="search-bar">-->
-<!--      <label title="Search" id="search-label" for="search-input"><span><tap-icon-magnifier width="20" height="20"></tap-icon-magnifier></span></label>-->
-<!--      <input placeholder="Search..." id="search-input" aria-labelledby="search-label" class="search-input">-->
-<!--    </form>-->
   </div>
 </template>
 
 <script setup>
-import '../../src/lit/icons'
+import '../../src/lit/icons';
+
+defineProps({
+  search: String,
+  setSearch: String,
+})
 </script>
 
 <style scoped>

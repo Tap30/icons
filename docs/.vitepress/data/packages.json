@@ -1,10 +1,10 @@
 [
   {
     "name": "lit",
-    "title": "Lit (Web Components)"
+    "title": "Lit"
   },
   {
     "name": "react",
-    "title": "React Components"
+    "title": "React"
   }
 ]

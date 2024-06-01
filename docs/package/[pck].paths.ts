@@ -1,6 +1,8 @@
-import fs from "fs";
+import fs from 'fs';
 
-const packages = JSON.parse(fs.readFileSync('docs/.vitepress/data/packages.json').toString()) as { name: string; title: string }[];
+const packages = JSON.parse(
+  fs.readFileSync('docs/.vitepress/data/packages.json').toString(),
+) as { name: string; title: string }[];
 
 export default {
   paths() {
@@ -9,19 +11,19 @@ export default {
 
       content += `#  ${pck.title} \n`;
 
-      content += getInstallSection(pck.name)
+      content += getInstallSection(pck.name);
 
-      content += getImportSection(pck.name)
+      content += getImportSection(pck.name);
 
-      content += getUsageSection(pck.name)
+      content += getUsageSection(pck.name);
 
       return {
         params: { pck: pck.name },
-        content
-      }
-    })
-  }
-}
+        content,
+      };
+    });
+  },
+};
 
 function getInstallSection(name: string) {
   return `
@@ -45,31 +47,12 @@ pnpm install @tapsi-oss/icons/${name}
 
 :::
 
-
-
----
-
-::: code-group
-
-\`\`\`js [React]
-<Map width={69} height={69} color="#696969" />
-\`\`\`
-
-\`\`\`js [Lit]
-<tap-icon-map width="69" height="69" color="#696969"></tap-icon-map>
-\`\`\`
-
-:::
-
----
-
-
-`
+`;
 }
 
 function getImportSection(name: string) {
   if (name === 'react')
-  return `
+    return `
 ### Import
 
 Then import this component into your project:
@@ -77,7 +60,7 @@ Then import this component into your project:
 \`\`\`js
 import Map from '@tapsi-oss/icons/react';
 \`\`\`
-`
+`;
 
   if (name === 'lit')
     return `
@@ -89,11 +72,10 @@ Then import this component into your project by using a bare module specifier:
 \`\`\`js
 import '@tapsi-oss/icons/${name}';
 \`\`\`
-`
+`;
 
-  return ''
+  return '';
 }
-
 
 function getUsageSection(name: string) {
   if (name === 'react')
@@ -105,7 +87,7 @@ Now You can use components in your code:
 \`\`\`js
 <Map />
 \`\`\`
-`
+`;
 
   if (name === 'lit')
     return `
@@ -116,7 +98,7 @@ Now You can use components in your code:
 \`\`\`js
 <tap-icon-map></tap-icon-map>
 \`\`\`
-`
+`;
 
-  return ''
+  return '';
 }

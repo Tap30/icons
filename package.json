@@ -11,9 +11,9 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "analyze": "cem analyze  --litelement --outdir dist --globs \"src/**/index.ts\"",
-    "svg2lit": "node scripts/svg2lit.js",
-    "svg2react": "node scripts/svg2react.js"
+    "pre-build:config": "node scripts/generateConfigFile.js",
+    "pre-build:docs": "node scripts/generateDocumentation.js",
+    "pre-build:lit": "node scripts/generateLitComponents.js"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.10.2",
@@ -49,11 +49,9 @@
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.0",
     "@vitejs/plugin-vue": "^5.0.4",
-    "@vueuse/components": "^10.7.2",
-    "@vueuse/core": "^10.7.2",
-    "custom-elements-manifest": "^2.1.0",
+    "ansi-colors": "^4.1.3",
+    "cli-progress": "^3.12.0",
     "lit": "^3.1.2",
-    "primevue": "^3.52.0",
     "vue": "^3.4.27"
   }
 }
