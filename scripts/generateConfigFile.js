@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import {configFilePath, inputDir} from "./constants.js";
+import {configFilePath, inputDir, outputDir} from "./constants.js";
 import cliProgress from "cli-progress";
 import colors from "ansi-colors";
 const config = {};
@@ -16,6 +16,10 @@ fs.readdir(inputDir, (err, files) => {
     [b.name]: b.items
   }));
 
+  // Ensure dist directory exists
+  if (!fs.existsSync('dist')) {
+    fs.mkdirSync('dist', {recursive: true});
+  }
   console.info("Generating `dist/config.json`:")
   const bar = new cliProgress.SingleBar({
     format: '{percentage}% ({value}/{total}) |' + colors.yellow('{bar}') + '|',
