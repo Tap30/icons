@@ -1,0 +1,82 @@
+[
+  {
+    "items": ["interface", "essential"],
+    "name": "interface"
+  },
+  {
+    "items": ["arrow", "diagrams"],
+    "name": "arrow"
+  },
+  {
+    "items": ["brand"],
+    "name": "brand"
+  },
+  {
+    "items": ["building", "construction"],
+    "name": "building"
+  },
+  {
+    "items": ["car", "service", "parts", "vehicle"],
+    "name": "car"
+  },
+  {
+    "items": ["cursor", "select", "hand"],
+    "name": "cursor"
+  },
+  {
+    "items": ["disabled", "disability", "accessibility"],
+    "name": "accessibility"
+  },
+  {
+    "items": ["mobile", "device", "telephone", "emails", "messages", "chat"],
+    "name": "device"
+  },
+  {
+    "items": ["money", "payments", "finance"],
+    "name": "finance"
+  },
+  {
+    "items": ["navigation", "maps"],
+    "name": "navigation"
+  },
+  {
+    "items": ["photo", "video", "camera", "media"],
+    "name": "media"
+  },
+  {
+    "items": ["signs"],
+    "name": "signs"
+  },
+  {
+    "items": ["social", "medias", "rewards"],
+    "name": "social"
+  },
+  {
+    "items": ["time", "history", "calendar"],
+    "name": "time"
+  },
+  {
+    "items": ["transportation", "transport"],
+    "name": "transport"
+  },
+  {
+    "items": ["users", "person"],
+    "name": "person"
+  },
+  {
+    "items": ["number", "digit"],
+    "name": "number"
+  },
+  {
+    "items": ["fill", "filled"],
+    "name": "fill"
+  },
+  {
+    "items": ["outlined"],
+    "name": "outlined"
+  },
+  {
+    "items": ["/", "slash"],
+    "name": "slash"
+  }
+]

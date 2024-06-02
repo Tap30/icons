@@ -60,3 +60,10 @@ out-tsc
 
 # Storybook
 storybook-static
+
+# Vitepress
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+docs/components/IconGrid.vue
+src/lit/icons/**
