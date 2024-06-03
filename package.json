@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput & wds",
-    "storybook": "storybook dev -p 3001",
+    "storybook:dev": "storybook dev -p 3001",
+    "storybook:build": "storybook build",
+    "storybook": "pnpm storybook:dev",
     "test": "wtr --watch",
     "lint": "pnpm eslint ./src/**/* --fix",
     "fmt": "pnpm prettier src/**/* --write --fix",

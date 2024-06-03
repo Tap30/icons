@@ -62,6 +62,13 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy Vitepress
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Deploy Storybook
+        uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
+        with:
+          install_command: pnpm install
+          build_command: pnpm storybook:build
+          path: storybook-static
+          checkout: false
