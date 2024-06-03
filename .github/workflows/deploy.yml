@@ -100,12 +100,9 @@ jobs:
       - name: Deploy Vitepress
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          artifact_name: vitepress
       - name: Deploy Storybook
         uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
         with:
-          artifact_name: storybook
           install_command: pnpm install
           build_command: pnpm storybook:build
           path: storybook-static
