@@ -7,7 +7,7 @@
     "storybook:dev": "storybook dev -p 3001",
     "storybook:build": "storybook build",
     "storybook": "pnpm storybook:dev",
-    "test": "wtr --watch",
+    "test": "wtr",
     "lint": "pnpm eslint ./src/**/* --fix",
     "fmt": "pnpm prettier src/**/* --write --fix",
     "docs:dev": "vitepress dev docs",
