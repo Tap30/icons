@@ -2,8 +2,8 @@ import { create } from '@storybook/theming/create';
 
 export default create({
   base: 'dark',
-  brandTitle: 'Tapsi Web Components',
-  brandUrl: 'https://tap30.github.io/web-components',
+  brandTitle: 'Tapsi Icons',
+  brandUrl: 'https://tap30.github.io/icons',
   brandTarget: '_blank',
   colorPrimary: '#a8b1ff',
   colorSecondary: '#a8b1ff',
