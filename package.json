@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput & wds",
     "storybook": "storybook dev -p 3001",
-    "test": "wtr --watch",
+    "test": "wtr",
     "lint": "pnpm eslint ./src/**/* --fix",
     "fmt": "pnpm prettier src/**/* --write --fix",
     "docs:dev": "vitepress dev docs",

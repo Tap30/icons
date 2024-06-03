@@ -2,6 +2,8 @@ import { html, LitElement, PropertyValues } from 'lit';
 import { property } from 'lit/decorators.js';
 
 export class Icon extends LitElement {
+  static formAssociated = true;
+
   connectedCallback() {
     super.connectedCallback();
     this.style.display = 'block';
