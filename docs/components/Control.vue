@@ -257,4 +257,15 @@ form:hover {
   border-color: var(--vp-c-brand-1);
 }
 
+@media (max-width: 700px) {
+  .control {
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    min-width: unset;
+    transform: unset;
+  }
+}
+
 </style>
