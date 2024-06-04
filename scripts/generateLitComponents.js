@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 import {configFilePath, outputDir} from "./constants.js";
 import {adjustSvgIndent, toPascalCase} from "./common.js";
-import cliProgress from 'cli-progress';
 import colors from 'ansi-colors';
 
 
@@ -16,16 +15,9 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, {recursive: true});
 }
 console.log('Generating Lit Components:')
-const bar = new cliProgress.SingleBar({
-  format: '{percentage}% ({value}/{total}) |' + colors.cyan('{bar}') + '|',
-  barCompleteChar: '\u2588',
-  barIncompleteChar: '\u2591',
-  hideCursor: true
-}, cliProgress.Presets.shades_classic);
-bar.start(Object.keys(config).length, 0);
 Object.keys(config).forEach((icon, index) => {
-  // console.info(`[${index+1}/${Object.keys(config).length}] Processing \`${icon}\`...`);
-  bar.update(index + 1);
+  console.info(`[${colors.yellow(index + 1)}/${colors.yellow(Object.keys(config).length)}] Generating ${colors.cyan(`<tap-icon-${icon} />`)}...`);
+
   const pascalCaseName = toPascalCase(icon);
   const outputFolder = path.join(outputDir, icon);
   if (!fs.existsSync(outputFolder)) {
@@ -74,12 +66,12 @@ ${indentedSvgContent}\`);
   );
 
 })
-bar.stop();
 
 // After all files have been processed:
 rootIndexContent.sort();
 iconsStoriesTemplates.sort();
 
+console.info(`Generating ${colors.cyan(`src/lit/icons/index.ts`)}...`);
 // Write the aggregated index.ts in the output directory
 fs.writeFileSync(
   path.join(outputDir, "index.ts"),
@@ -87,6 +79,8 @@ fs.writeFileSync(
 );
 
 // Generate icons.stories.ts with dynamic SVG icon templates
+console.info(`Generating ${colors.cyan(`src/lit/icons/icons.stories.ts`)}...`);
+
 let iconsStoriesContent = `import {html, TemplateResult} from "lit";
 import "./index";
 
@@ -145,3 +139,4 @@ fs.writeFileSync(
   path.join(outputDir, "icons.stories.ts"),
   iconsStoriesContent
 );
+console.info("✨ Done")

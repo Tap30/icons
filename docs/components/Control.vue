@@ -146,7 +146,7 @@ const {selectedIcon} = defineProps({
 
 const width = ref(120);
 const height = ref(120);
-const color = ref('#5672cd');
+const color = ref('#ff7733');
 
 function toPascalCase(name) {
   return name
@@ -255,6 +255,17 @@ form:hover {
 
 .icon-preview:hover {
   border-color: var(--vp-c-brand-1);
+}
+
+@media (max-width: 700px) {
+  .control {
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    min-width: unset;
+    transform: unset;
+  }
 }
 
 </style>

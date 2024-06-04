@@ -1,7 +1,6 @@
 import fs from "fs";
 import path from "path";
 import {configFilePath, iconGridDocsDir, outputDir} from "./constants.js";
-import cliProgress from 'cli-progress';
 import colors from 'ansi-colors';
 
 let iconGridDocsTemplate = [];
@@ -9,16 +8,9 @@ let iconGridDocsTemplate = [];
 const config = JSON.parse(fs.readFileSync(configFilePath).toString());
 
 console.log("Generating Vitepress Documentation from SVG Files:")
-const bar = new cliProgress.SingleBar({
-  format: '{percentage}% ({value}/{total}) |' + colors.green('{bar}') + '|',
-  barCompleteChar: '\u2588',
-  barIncompleteChar: '\u2591',
-  hideCursor: true
-}, cliProgress.Presets.shades_classic);
 
-bar.start(Object.keys(config).length, 0);
 Object.keys(config).forEach((file, index) => {
-  bar.update(index + 1);
+  console.info(`[${colors.yellow(index + 1)}/${colors.yellow(Object.keys(config).length)}] Adding ${colors.cyan(file)} to the Documentation...`);
   iconGridDocsTemplate.push(
     `<IconPreview
 \t\t\tv-if="'${file}'.includes(search) && (!page?.params?.category || config['${file}']?.categories?.includes?.(page?.params?.category))"
@@ -74,9 +66,10 @@ defineProps({
   }
 </style>
 `
-bar.stop();
 
 fs.writeFileSync(
   path.join(iconGridDocsDir, "IconGrid.vue"),
   iconGridDocsContent
 );
+
+console.info("✨ Done")
