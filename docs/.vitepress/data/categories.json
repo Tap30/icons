@@ -1,82 +1,102 @@
 [
   {
     "items": ["interface", "essential"],
-    "name": "interface"
+    "name": "interface",
+    "description": "A list of interface icons."
   },
   {
     "items": ["arrow", "diagrams"],
-    "name": "arrow"
+    "name": "arrow",
+    "description": "A list of arrow icons."
   },
   {
     "items": ["brand"],
-    "name": "brand"
+    "name": "brand",
+    "description": "A list of brand icons."
   },
   {
     "items": ["building", "construction"],
-    "name": "building"
+    "name": "building",
+    "description": "A list of building icons."
   },
   {
     "items": ["car", "service", "parts", "vehicle"],
-    "name": "car"
+    "name": "car",
+    "description": "A list of car icons."
   },
   {
     "items": ["cursor", "select", "hand"],
-    "name": "cursor"
+    "name": "cursor",
+    "description": "A list of cursor icons."
   },
   {
     "items": ["disabled", "disability", "accessibility"],
-    "name": "accessibility"
+    "name": "accessibility",
+    "description": "A list of accessibility icons."
   },
   {
     "items": ["mobile", "device", "telephone", "emails", "messages", "chat"],
-    "name": "device"
+    "name": "device",
+    "description": "A list of device icons."
   },
   {
     "items": ["money", "payments", "finance"],
-    "name": "finance"
+    "name": "finance",
+    "description": "A list of finance icons."
   },
   {
     "items": ["navigation", "maps"],
-    "name": "navigation"
+    "name": "navigation",
+    "description": "A list of navigation icons."
   },
   {
     "items": ["photo", "video", "camera", "media"],
-    "name": "media"
+    "name": "media",
+    "description": "A list of media icons."
   },
   {
     "items": ["signs"],
-    "name": "signs"
+    "name": "signs",
+    "description": "A list of signs icons."
   },
   {
     "items": ["social", "medias", "rewards"],
-    "name": "social"
+    "name": "social",
+    "description": "A list of social icons."
   },
   {
     "items": ["time", "history", "calendar"],
-    "name": "time"
+    "name": "time",
+    "description": "A list of time icons."
   },
   {
     "items": ["transportation", "transport"],
-    "name": "transport"
+    "name": "transport",
+    "description": "A list of transport icons."
   },
   {
     "items": ["users", "person"],
-    "name": "person"
+    "name": "person",
+    "description": "A list of person icons."
   },
   {
     "items": ["number", "digit"],
-    "name": "number"
+    "name": "number",
+    "description": "A list of number icons."
   },
   {
     "items": ["fill", "filled"],
-    "name": "fill"
+    "name": "fill",
+    "description": "A list of fill icons."
   },
   {
     "items": ["outlined"],
-    "name": "outlined"
+    "name": "outlined",
+    "description": "A list of outlined icons."
   },
   {
     "items": ["/", "slash"],
-    "name": "slash"
+    "name": "slash",
+    "description": "A list of slash icons."
   }
 ]

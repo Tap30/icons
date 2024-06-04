@@ -146,7 +146,7 @@ const {selectedIcon} = defineProps({
 
 const width = ref(120);
 const height = ref(120);
-const color = ref('#5672cd');
+const color = ref('#ff7733');
 
 function toPascalCase(name) {
   return name

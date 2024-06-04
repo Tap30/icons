@@ -2,8 +2,13 @@ import { DefaultTheme } from "vitepress";
 
 export default [
   {
-    text: 'Web Components',
-    link: 'https://tap30.github.io/web-components',
-    target: '_blank',
-  }
+    text: 'Icons',
+    link: '/all',
+    target: '_self',
+  },
+  {
+    text: 'Packages',
+    link: '/package',
+    target: '_self',
+  },
 ] as DefaultTheme.NavItem[]

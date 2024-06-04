@@ -16,17 +16,17 @@ const getPackages = (): DefaultTheme.SidebarItem[] => {
 export default [
   // { text: 'Getting Started', link: '/getting-started' },
   {
-    text: 'Icon Set',
-    link: '/',
+    text: 'All',
+    link: '/all',
   },
   {
     text: 'Icon Categories',
-    collapsed: true,
+    collapsed: false,
     items: getCategories(),
   },
   {
     text: 'Packages',
-    collapsed: true,
+    collapsed: false,
     items: getPackages(),
   },
 ] as DefaultTheme.SidebarItem[]
