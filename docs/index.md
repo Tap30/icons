@@ -5,20 +5,20 @@ layout: home
 
 hero:
 
-  name: Tapsi Design System
+  name: Tapsi
 
-  text: Icon Set
+  text: Icon set
 
   tagline: Usable for all front-end frameworks
 
 
   actions:
     - theme: brand
+      text: Getting Started
+      link: /getting-started
+    - theme: alt
       text: Explore Icons
       link: /all
-    - theme: alt
-      text: Installation
-      link: /package
     - theme: alt
       text: GitHub
       link: https://github.com/Tap30/icons
