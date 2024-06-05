@@ -7,16 +7,14 @@ export default [
     target: '_self',
   },
   {
-    text: 'Packages',
-    items: [
-      { text: 'Lit', link: '/package/lit' },
-      { text: 'React', link: '/package/react' }
-    ],
+    text: 'Getting Started',
+    link: '/getting-started',
+    target: '_self',
   },
   {
     text: 'Related Links',
     items: [
-      {text: 'Web Components', link: 'https://tap30.github.io/web-components', target: '_blank'},
+      { text: 'Design System', link: 'https://tap30.github.io/web-components', target: '_blank' },
     ],
   }
 ] as DefaultTheme.NavItem[]
