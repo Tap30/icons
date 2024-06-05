@@ -2,13 +2,13 @@ import { DefaultTheme } from "vitepress";
 
 export default [
   {
-    text: 'Icons',
-    link: '/all',
+    text: 'Getting Started',
+    link: '/getting-started',
     target: '_self',
   },
   {
-    text: 'Getting Started',
-    link: '/getting-started',
+    text: 'Icons',
+    link: '/all',
     target: '_self',
   },
   {
