@@ -71,8 +71,8 @@
   },
   {
     "items": ["transportation", "transport"],
-    "name": "transport",
-    "description": "A list of transport icons."
+    "name": "transportation",
+    "description": "A list of transportation icons."
   },
   {
     "items": ["users", "person"],

@@ -1,4 +1,4 @@
 {
   "name": "telephone-fill",
-  "categories": []
+  "categories": ["device", "fill"]
 }

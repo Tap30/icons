@@ -1,4 +1,4 @@
 {
   "name": "microphone-spark-fill",
-  "categories": ["fill"]
+  "categories": ["device", "fill"]
 }

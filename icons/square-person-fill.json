@@ -1,4 +1,4 @@
 {
   "name": "square-person-fill",
-  "categories": []
+  "categories": ["person", "fill"]
 }
