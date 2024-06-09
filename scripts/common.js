@@ -11,7 +11,8 @@ export function adjustSvgIndent(svgContent) {
   let indentLevel = 0;
 
   lines.forEach((line) => {
-    line = line.replace("black", "currentColor");
+    line = line.replaceAll("black", "currentColor");
+    line = line.replaceAll("white", "currentColor");
     if (line.trim().startsWith("</")) {
       indentLevel -= 1;
     }

@@ -1,7 +1,7 @@
 [
   {
-    "items": ["interface", "essential"],
-    "name": "interface",
+    "items": ["interfaces", "essential"],
+    "name": "interfaces",
     "description": "A list of interface icons."
   },
   {
