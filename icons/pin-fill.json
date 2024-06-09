@@ -1,4 +1,4 @@
 {
   "name": "pin-fill",
-  "categories": []
+  "categories": ["interface", "fill"]
 }

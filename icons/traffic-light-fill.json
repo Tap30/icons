@@ -1,4 +1,4 @@
 {
   "name": "traffic-light-fill",
-  "categories": []
+  "categories": ["navigation", "fill"]
 }

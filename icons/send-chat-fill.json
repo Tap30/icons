@@ -1,4 +1,4 @@
 {
   "name": "send-chat-fill",
-  "categories": []
+  "categories": ["device", "fill"]
 }

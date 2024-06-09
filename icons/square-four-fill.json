@@ -1,4 +1,4 @@
 {
   "name": "square-four-fill",
-  "categories": []
+  "categories": ["interface", "fill"]
 }

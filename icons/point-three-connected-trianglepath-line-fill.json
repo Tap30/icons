@@ -1,4 +1,4 @@
 {
   "name": "point-three-connected-trianglepath-line-fill",
-  "categories": []
+  "categories": ["interface", "fill"]
 }

@@ -1,4 +1,4 @@
 {
   "name": "square-grid-rounded-fill",
-  "categories": []
+  "categories": ["interface", "fill"]
 }

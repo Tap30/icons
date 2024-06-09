@@ -1,4 +1,4 @@
 {
   "name": "microphone-fill",
-  "categories": ["fill"]
+  "categories": ["device", "fill"]
 }

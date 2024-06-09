@@ -1,4 +1,4 @@
 {
   "name": "shopping-cart-fill",
-  "categories": []
+  "categories": ["interface", "fill"]
 }
