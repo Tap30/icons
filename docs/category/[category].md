@@ -15,7 +15,7 @@ function capitalizeFirstLetter(string) {
 
 </script>
 
-# {{capitalizeFirstLetter(page?.params?.category)}} Icons
+## {{capitalizeFirstLetter(page?.params?.category)}} Icons
 
 <Icons />
 

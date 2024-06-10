@@ -1,4 +1,4 @@
 {
   "name": "headphone",
-  "categories": ["device"]
+  "categories": ["device", "outlined"]
 }

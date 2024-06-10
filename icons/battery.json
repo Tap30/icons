@@ -1,4 +1,4 @@
 {
   "name": "battery",
-  "categories": ["device"]
+  "categories": ["device", "outlined"]
 }

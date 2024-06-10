@@ -1,4 +1,4 @@
 {
   "name": "person-two",
-  "categories": ["person"]
+  "categories": ["person", "outlined"]
 }
