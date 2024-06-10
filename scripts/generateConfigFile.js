@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import {configFilePath, inputDir, outputDir} from "./constants.js";
 import colors from "ansi-colors";
+import {adjustSvgIndent} from "./common.js";
 const config = {};
 
 fs.readdir(inputDir, (err, files) => {
@@ -27,7 +28,7 @@ fs.readdir(inputDir, (err, files) => {
 
     if (file.endsWith(".svg")) {
       const svgContent = fs.readFileSync(path.join(inputDir, file), "utf8").replaceAll('\n', '');
-      config[id] = {...config[id], svgContent, id}
+      config[id] = {...config[id], svgContent: adjustSvgIndent(svgContent), id}
 
     } else if (file.endsWith(".json")) {
       const jsonContent = JSON.parse(fs.readFileSync(path.join(inputDir, file), "utf8").replaceAll('\n', ''));
