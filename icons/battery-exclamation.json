@@ -1,4 +1,4 @@
 {
   "name": "battery-exclamation",
-  "categories": ["device"]
+  "categories": ["device", "outlined"]
 }

@@ -1,4 +1,4 @@
 {
   "name": "alarm-clock",
-  "categories": ["time"]
+  "categories": ["time", "outlined"]
 }
