@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import '../../src/lit/icons'
+import '../../src/web-components/icons'
 
 defineProps({
   title: String,

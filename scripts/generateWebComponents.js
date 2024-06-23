@@ -46,8 +46,8 @@ declare global {
   const indentedSvgContent = adjustSvgIndent(config[icon].svgContent);
   fs.writeFileSync(
     path.join(outputFolder, `${icon}.ts`),
-    `import {html} from "lit";
-import {TapIcon} from "../../icon";
+    `import { html } from 'lit';
+import { TapIcon } from '../../icon';
 
 export class ${pascalCaseName}Icon extends TapIcon {
   render() {
@@ -71,7 +71,7 @@ ${indentedSvgContent}\`);
 rootIndexContent.sort();
 iconsStoriesTemplates.sort();
 
-console.info(`Generating ${colors.cyan(`src/lit/icons/index.ts`)}...`);
+console.info(`Generating ${colors.cyan(`src/web-components/icons/index.ts`)}...`);
 // Write the aggregated index.ts in the output directory
 fs.writeFileSync(
   path.join(outputDir, "index.ts"),
@@ -79,29 +79,29 @@ fs.writeFileSync(
 );
 
 // Generate icons.stories.ts with dynamic SVG icon templates
-console.info(`Generating ${colors.cyan(`src/lit/icons/icons.stories.ts`)}...`);
+console.info(`Generating ${colors.cyan(`src/web-components/icons/icons.stories.ts`)}...`);
 
-let iconsStoriesContent = `import {html, TemplateResult} from "lit";
-import "./index";
+let iconsStoriesContent = `import { html, TemplateResult } from 'lit';
+import './index';
 
 export default {
-  title: "Icons",
-  component: "tap-icon",
+  title: 'Icons',
+  component: 'tap-icon',
   argTypes: {
     height: {
-      control: {type: "number"},
-      description: "The icon height",
+      control: {type: 'number'},
+      description: 'The icon height',
       defaultValue: 24,
     },
     width: {
-      control: {type: "number"},
-      description: "The icon width",
+      control: {type: 'number'},
+      description: 'The icon width',
       defaultValue: 24,
     },
     color: {
-      control: {type: "text"},
-      description: "The icon color, accepts CSS values",
-      defaultValue: "inherit",
+      control: {type: 'text'},
+      description: 'The icon color, accepts CSS values',
+      defaultValue: 'inherit',
     },
   },
 };

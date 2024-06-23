@@ -66,4 +66,4 @@ docs/.vitepress/dist
 docs/.vitepress/cache
 
 docs/components/IconGrid.vue
-src/lit/icons/**
+src/web-components/icons/**

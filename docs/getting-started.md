@@ -4,8 +4,8 @@ outline: deep
 
 <script>
 import config from '../dist/config';
-import '../src/lit/icons';
-import '../src/lit/icon';
+import '../src/web-components/icons';
+import '../src/web-components/icon';
 
 const iconCount = Object.keys(config).length
 </script>
