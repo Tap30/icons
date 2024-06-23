@@ -132,8 +132,8 @@
 </template>
 
 <script setup>
-import '../../src/lit/icons';
-import '../../src/lit/icon';
+import '../../src/web-components/icons';
+import '../../src/web-components/icon';
 import configFile from "../../dist/config.json";
 
 
