@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import '../../src/lit/icons';
+import '@/web-components/icons';
 
 defineProps({
   search: String,

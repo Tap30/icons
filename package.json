@@ -15,7 +15,7 @@
     "docs:preview": "vitepress preview docs",
     "pre-build:config": "node scripts/generateConfigFile.js",
     "pre-build:docs": "node scripts/generateDocumentation.js",
-    "pre-build:lit": "node scripts/generateLitComponents.js",
+    "pre-build:lit": "node scripts/generateWebComponents.js",
     "pre-build": "pnpm pre-build:config && pnpm pre-build:docs && pnpm pre-build:lit"
   },
   "devDependencies": {
