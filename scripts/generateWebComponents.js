@@ -28,7 +28,7 @@ Object.keys(config).forEach((icon, index) => {
   fs.writeFileSync(
     path.join(outputFolder, "index.ts"),
     `import {customElement} from "lit/decorators.js";
-import { ${pascalCaseName}Icon } from "./${icon}";
+import { ${pascalCaseName}Icon } from "./${icon}.js";
 
 @customElement("tap-icon-${icon}")
 export class TapIcon${pascalCaseName} extends ${pascalCaseName}Icon {
@@ -47,7 +47,7 @@ declare global {
   fs.writeFileSync(
     path.join(outputFolder, `${icon}.ts`),
     `import { html } from 'lit';
-import { TapIcon } from '../../icon';
+import { TapIcon } from '../../icon/index.js';
 
 export class ${pascalCaseName}Icon extends TapIcon {
   render() {
@@ -59,7 +59,7 @@ ${indentedSvgContent}\`);
   );
 
   rootIndexContent.push(
-    `export { TapIcon${pascalCaseName} } from './${icon}';`
+    `export { TapIcon${pascalCaseName} } from './${icon}/index.js';`
   );
   iconsStoriesTemplates.push(
     `<tap-icon-${icon} color=\${color} width=\${width} height=\${height}></tap-icon-${icon}>`
@@ -71,7 +71,7 @@ ${indentedSvgContent}\`);
 rootIndexContent.sort();
 iconsStoriesTemplates.sort();
 
-console.info(`Generating ${colors.cyan(`src/web-components/icons/index.ts`)}...`);
+console.info(`Generating ${colors.cyan(`src/icons/index.ts`)}...`);
 // Write the aggregated index.ts in the output directory
 fs.writeFileSync(
   path.join(outputDir, "index.ts"),
@@ -79,7 +79,7 @@ fs.writeFileSync(
 );
 
 // Generate icons.stories.ts with dynamic SVG icon templates
-console.info(`Generating ${colors.cyan(`src/web-components/icons/icons.stories.ts`)}...`);
+console.info(`Generating ${colors.cyan(`src/icons/icons.stories.ts`)}...`);
 
 let iconsStoriesContent = `import { html, TemplateResult } from 'lit';
 import './index';

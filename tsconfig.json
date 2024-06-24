@@ -23,4 +23,5 @@
     }
   },
   "include": ["src","docs"],
+  "exclude": ["src/**/*.stories.ts"]
 }

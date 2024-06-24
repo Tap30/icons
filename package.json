@@ -1,7 +1,22 @@
 {
-  "name": "@tapsi-oss/icons",
-  "version": "0.0.0",
+  "name": "@tapsioss/icons",
+  "version": "0.0.0-alpha-8",
   "type": "module",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "homepage": "https://tap30.github.io/icons/",
+  "keywords": [
+    "Tapsi",
+    "icons"
+  ],
+  "author": "Amirhossein Alibakhshi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tap30/icons.git"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsc --watch --preserveWatchOutput & wds",
     "storybook:dev": "storybook dev -p 3001",
@@ -16,7 +31,8 @@
     "pre-build:config": "node scripts/generateConfigFile.js",
     "pre-build:docs": "node scripts/generateDocumentation.js",
     "pre-build:lit": "node scripts/generateWebComponents.js",
-    "pre-build": "pnpm pre-build:config && pnpm pre-build:docs && pnpm pre-build:lit"
+    "pre-build": "pnpm pre-build:config && pnpm pre-build:docs && pnpm pre-build:lit",
+    "build": "rm -rf dist && tsc -p tsconfig.json && cp -r dist/src/. dist && rm -rf dist/docs && rm -rf dist/src"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.10.2",

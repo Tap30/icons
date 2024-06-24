@@ -4,8 +4,8 @@ outline: deep
 
 <script>
 import config from '../dist/config';
-import '../src/web-components/icons';
-import '../src/web-components/icon';
+import '../src/icons';
+import '../src/icon';
 
 const iconCount = Object.keys(config).length
 </script>
@@ -28,41 +28,53 @@ const iconCount = Object.keys(config).length
 
 ## Installation
 
-### Web
+### Web Components
 
 Implementation of the Tapsi icon library for web applications.
 
 ::: code-group
 ```bash [npm]
-npm install @tapsi-oss/icons/web-components
+npm install @tapsi-oss/icons
 ```
 
 ```bash [yarn]
-yarn add @tapsi-oss/icons/web-components
+yarn add @tapsi-oss/icons
 ```
 
 ```bash [pnpm]
-pnpm install @tapsi-oss/icons/web-components
+pnpm install @tapsi-oss/icons
 ```
 :::
 
-### React
+[//]: # (### React)
 
-Implementation of the Tapsi icon library in React.
+[//]: # ()
+[//]: # (Implementation of the Tapsi icon library in React.)
 
-::: code-group
-```bash [npm]
-npm install @tapsi-oss/icons/react
-```
+[//]: # ()
+[//]: # (::: code-group)
 
-```bash [yarn]
-yarn add @tapsi-oss/icons/react
-```
+[//]: # (```bash [npm])
 
-```bash [pnpm]
-pnpm install @tapsi-oss/icons/react
-```
-:::
+[//]: # (npm install @tapsi-oss/icons/react)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (```bash [yarn])
+
+[//]: # (yarn add @tapsi-oss/icons/react)
+
+[//]: # (```)
+
+[//]: # ()
+[//]: # (```bash [pnpm])
+
+[//]: # (pnpm install @tapsi-oss/icons/react)
+
+[//]: # (```)
+
+[//]: # (:::)
 
 ## Usage
 
