@@ -1,6 +1,6 @@
 export const inputDir = "icons";
 
-export const outputDir = "src/web-components/icons";
+export const outputDir = "src/icons";
 
 export const iconGridDocsDir = "docs/components";
 
